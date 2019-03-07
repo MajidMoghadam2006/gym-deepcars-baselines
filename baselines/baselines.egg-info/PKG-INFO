@@ -9,6 +9,6 @@ License: UNKNOWN
 Description: UNKNOWN
 Platform: UNKNOWN
 Provides-Extra: test
+Provides-Extra: bullet
 Provides-Extra: all
 Provides-Extra: mpi
-Provides-Extra: bullet
