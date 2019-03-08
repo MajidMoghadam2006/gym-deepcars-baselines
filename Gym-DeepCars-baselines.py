@@ -25,7 +25,7 @@ def main():
         exploration_final_eps=0.02,
         print_freq=10,
         callback=callback,
-        render=True
+        render=False
     )
     env.close()
     print("Saving model to deepcars_deepq_model.pkl")

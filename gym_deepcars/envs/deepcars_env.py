@@ -18,6 +18,7 @@ from scipy.misc import toimage
 # =======================================================================================================================
 # -------------------------------------------Global Parameter values----------------------------------------------------
 # =======================================================================================================================
+renderFlag = False  # enabling/disabling pygame render
 
 DefaultTextColor = (255, 97, 3)
 BackgroundColor = (255, 255, 255)
@@ -148,6 +149,7 @@ class DeepCarsEnv(gym.Env):
 
     def PygameInitialize(self):
         # set up pygame, the window, and the mouse cursor
+        os.environ["SDL_VIDEODRIVER"] = "dummy"
         pygame.init()
         self.MainClock = pygame.time.Clock()
         self.WindowSurface = pygame.display.set_mode((WindowWidth, WindowHeight))
