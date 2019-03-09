@@ -149,7 +149,7 @@ class DeepCarsEnv(gym.Env):
 
     def PygameInitialize(self):
         # set up pygame, the window, and the mouse cursor
-        os.environ["SDL_VIDEODRIVER"] = "dummy"
+        os.environ["SDL_VIDEODRIVER"] = "dummy"             # Create a dummy window to not show the pygame window
         pygame.init()
         self.MainClock = pygame.time.Clock()
         self.WindowSurface = pygame.display.set_mode((WindowWidth, WindowHeight))

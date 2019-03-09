@@ -12,3 +12,4 @@ for _ in range(50):
     a = env.action_space.sample()  # Take a random action
     ImageData, Reward, done, __ = env.step(a)
     # env.render()
+    print(_)
