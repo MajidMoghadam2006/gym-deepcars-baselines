@@ -19,6 +19,8 @@ from baselines.deepq.utils import ObservationInput
 from baselines.common.tf_util import get_session
 from baselines.deepq.models import build_q_func
 
+# Package for showing the game screen using toimage function
+from scipy.misc import toimage
 
 class ActWrapper(object):
     def __init__(self, act, act_params):
@@ -281,11 +283,16 @@ def learn(env,
             env_action = action
             reset = False
             new_obs, rew, done, _ = env.step(env_action)
-            # Render the gym env
-            if render:
-                env.render()
+
+            # Show the received game image
+            # toimage(new_obs).show()
+
             # Store transition in the replay buffer.
             replay_buffer.add(obs, action, rew, new_obs, float(done))
+            # print("action: {}, reward: {}, done {}".format(action,rew,float(done)))
+            # if done:
+            #     toimage(obs).show()
+            #     toimage(new_obs).show()
             obs = new_obs
 
             episode_rewards[-1] += rew
@@ -302,7 +309,9 @@ def learn(env,
                 else:
                     obses_t, actions, rewards, obses_tp1, dones = replay_buffer.sample(batch_size)
                     weights, batch_idxes = np.ones_like(rewards), None
+
                 td_errors = train(obses_t, actions, rewards, obses_tp1, dones, weights)
+
                 if prioritized_replay:
                     new_priorities = np.abs(td_errors) + prioritized_replay_eps
                     replay_buffer.update_priorities(batch_idxes, new_priorities)

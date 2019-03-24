@@ -18,7 +18,6 @@ from scipy.misc import toimage
 # =======================================================================================================================
 # -------------------------------------------Global Parameter values----------------------------------------------------
 # =======================================================================================================================
-renderFlag = False  # enabling/disabling pygame render
 
 DefaultTextColor = (255, 97, 3)
 BackgroundColor = (255, 255, 255)
@@ -131,9 +130,11 @@ class DeepCarsEnv(gym.Env):
     def reset(self):  # Get initial state
         self.Self_Param_Initialization()        # Initialize self parameters
         self.PygameInitialize()
-        obs = self.observation_space.sample()   # Sample an observation with the correct dimensions and format
-        obs[:] = 0                              # Set the observations to zero as the initial observation in game
-        return obs
+        a = self.action_space.sample()  # Take a random action
+        ImageData, Reward, done, __ = self.step(1)
+        # obs = self.observation_space.sample()   # Sample an observation with the correct dimensions and format
+        # obs[:] = 0                              # Set the observations to zero as the initial observation in game
+        return ImageData
 
     def DrawText(self, text, font, TextColor, surface, x, y):
         textobj = font.render(text, 1, TextColor)
@@ -149,7 +150,9 @@ class DeepCarsEnv(gym.Env):
 
     def PygameInitialize(self):
         # set up pygame, the window, and the mouse cursor
-        os.environ["SDL_VIDEODRIVER"] = "dummy"             # Create a dummy window to not show the pygame window
+        # You ca do the following dummies in main also
+        # os.environ['SDL_AUDIODRIVER'] = "dummy"           # Create a AUDIO DRIVER to not produce the pygame sound
+        # os.environ["SDL_VIDEODRIVER"] = "dummy"           # Create a dummy window to not show the pygame window
         pygame.init()
         self.MainClock = pygame.time.Clock()
         self.WindowSurface = pygame.display.set_mode((WindowWidth, WindowHeight))
@@ -222,8 +225,10 @@ class DeepCarsEnv(gym.Env):
         return ImageData
 
     def baselines_preprocess(self, ImageData):
+        ImageData = np.flipud(ImageData)
         ImageData = ImageData[WallWidth:WindowWidth - WallWidth, CarHeight + 4 * SpaceWidth:]   # Crop useful space
         ImageData = skimage.transform.resize(ImageData, (IMAGE_SCALE_WIDTH, IMAGE_SCALE_HEIGHT, 3))
+        ImageData = skimage.exposure.rescale_intensity(ImageData, out_range=(0, 255))
         return ImageData
 
     def step(self, ActionIndex=1, TrainingFlag=True):
@@ -274,29 +279,30 @@ class DeepCarsEnv(gym.Env):
                 self.PassedCarsCount += 1
 
         # ==================================================================================================================
+        # ------------------------------------------------Game state----------------------------------------------------
+        # ==================================================================================================================
+        self.render()
+        ImageData = pygame.surfarray.array3d(pygame.display.get_surface())
+
+        # ImageData = self.keras_preprocess(ImageData)
+        ImageData = self.baselines_preprocess(ImageData)
+
+        # # Show the output image
+        # toimage(ImageData).show()
+        # time.sleep(1)
+
+        # ==================================================================================================================
         # --------------------------------------------Reward function---------------------------------------------------
         # ==================================================================================================================
         done = False
         if self.PlayerHasHitBaddie(self.PlayerRect, self.OtherCarsVec):
             Reward = -1000
             done = True
+            print('Passed cars: {}'.format(self.PassedCarsCount))
             self.PassedCarsCount -= 1
             self.HitCarsCount += 1
         else:
             Reward = 1
-
-        # ==================================================================================================================
-        # ------------------------------------------------Game state----------------------------------------------------
-        # ==================================================================================================================
-
-        ImageData = pygame.surfarray.array3d(pygame.display.get_surface())
-
-        # ImageData = self.keras_preprocess(ImageData)
-        ImageData = self.baselines_preprocess(ImageData)
-
-        # Show the output image
-        # toimage(ImageData).show()
-        # time.sleep(1)
 
         # ==================================================================================================================
         # -----------------------------------------------ESC for Terminate--------------------------------------------------
@@ -308,8 +314,9 @@ class DeepCarsEnv(gym.Env):
                     done = True
                     self.close()
 
-        # print('Passed cars: {}'.format(self.PassedCarsCount))
         # return np.array(ImageData), Reward, done, {} #self.HitCarsCount, self.PassedCarsCount
+        # Accuracy = round(self.PassedCarsCount / (self.PassedCarsCount + self.HitCarsCount) * 100, 2)
+        # time.sleep(1)
         return ImageData, Reward, done, {}  # self.HitCarsCount, self.PassedCarsCount
     def render(self, mode='human', close=False):
         # =======================================Draw the game world on the window===========================================
@@ -347,4 +354,3 @@ class DeepCarsEnv(gym.Env):
 
         pygame.display.update()
         self.MainClock.tick(FPS)
-
