@@ -13,8 +13,8 @@ def callback(lcl, _glb):
     return is_solved
 
 def main():
-    os.environ['SDL_AUDIODRIVER'] = "dummy"  # Create a AUDIO DRIVER to not produce the pygame sound
-    os.environ["SDL_VIDEODRIVER"] = "dummy"  # Create a dummy window to not show the pygame window
+    # os.environ['SDL_AUDIODRIVER'] = "dummy"  # Create a AUDIO DRIVER to not produce the pygame sound
+    # os.environ["SDL_VIDEODRIVER"] = "dummy"  # Create a dummy window to not show the pygame window
     env = gym.make('DeepCars-v0')
     # env = gym.make("ElevatorAction-v0")
     env.reset()

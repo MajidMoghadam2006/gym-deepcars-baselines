@@ -8,7 +8,7 @@ Author-email: gym@openai.com
 License: UNKNOWN
 Description: UNKNOWN
 Platform: UNKNOWN
-Provides-Extra: bullet
-Provides-Extra: all
 Provides-Extra: test
 Provides-Extra: mpi
+Provides-Extra: all
+Provides-Extra: bullet
