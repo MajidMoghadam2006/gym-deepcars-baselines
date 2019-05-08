@@ -12,12 +12,12 @@ from baselines.common.cmd_util import common_arg_parser, parse_unknown_args, mak
 from baselines.common.tf_util import get_session
 from baselines import logger
 from importlib import import_module
-import gym_deepcars
 
+import gym_deepcars
 import os
 
-os.environ['SDL_AUDIODRIVER'] = "dummy"  # Create a AUDIO DRIVER to not produce the pygame sound
-os.environ["SDL_VIDEODRIVER"] = "dummy"  # Create a dummy window to not show the pygame window
+# os.environ['SDL_AUDIODRIVER'] = "dummy"  # Create a AUDIO DRIVER to not produce the pygame sound
+# os.environ["SDL_VIDEODRIVER"] = "dummy"  # Create a dummy window to not show the pygame window
 
 try:
     from mpi4py import MPI
@@ -54,9 +54,6 @@ _game_envs['retro'] = {
     'SpaceInvaders-Snes',
 }
 
-import datetime
-temp_file_name = datetime.datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
-logger_dir = './logs/' + temp_file_name
 
 def train(args, extra_args):
     env_type, env_id = get_env_type(args)
@@ -85,7 +82,6 @@ def train(args, extra_args):
         env=env,
         seed=seed,
         total_timesteps=total_timesteps,
-        checkpoint_path=logger_dir,
         **alg_kwargs
     )
 
@@ -212,22 +208,12 @@ def main(args):
 
     if MPI is None or MPI.COMM_WORLD.Get_rank() == 0:
         rank = 0
-        logger.configure(dir=logger_dir)
+        logger.configure()
     else:
-        logger.configure(format_strs=[],dir=logger_dir)
+        logger.configure(format_strs=[])
         rank = MPI.COMM_WORLD.Get_rank()
 
     model, env = train(args, extra_args)
-
-    print('Saving model to log directory...')
-    savedir = logger_dir + '/model.pkl'
-    model.save(savedir)
-    print('model saved!')
-
-    logger.log('------------------Inpute arguments------------------')
-    logger.log(args)
-    logger.log(extra_args)
-    logger.log('----------------------------------------------------')
 
     if args.save_path is not None and rank == 0:
         save_path = osp.expanduser(args.save_path)
@@ -246,16 +232,14 @@ def main(args):
                 actions, _, state, _ = model.step(obs,S=state, M=dones)
             else:
                 actions, _, _, _ = model.step(obs)
-            print(actions)
+
             obs, rew, done, _ = env.step(actions)
             episode_rew += rew[0]
-            print('reward = {}  ep_reward = {}'.format(rew,episode_rew))
             env.render()
             done = done.any() if isinstance(done, np.ndarray) else done
             if done:
                 print(f'episode_rew={episode_rew}')
                 episode_rew = 0
-                print('*******************************RESET***************************************')
                 obs = env.reset()
 
     env.close()

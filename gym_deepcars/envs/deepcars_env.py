@@ -130,7 +130,7 @@ class DeepCarsEnv(gym.Env):
     def reset(self):  # Get initial state
         self.Self_Param_Initialization()        # Initialize self parameters
         self.PygameInitialize()
-        a = self.action_space.sample()  # Take a random action
+        # a = self.action_space.sample()  # Take a random action
         ImageData, Reward, done, __ = self.step(1)
         # obs = self.observation_space.sample()   # Sample an observation with the correct dimensions and format
         # obs[:] = 0                              # Set the observations to zero as the initial observation in game
@@ -199,7 +199,7 @@ class DeepCarsEnv(gym.Env):
 
         # Define line rectangles
         for i in range(NoOfLanes - 1):
-            LineXCoord = WallWidth + (i) * LineWidth + (i + 1) * (SpaceWidth + CarWidth + SpaceWidth)
+            LineXCoord = WallWidth + i * LineWidth + (i + 1) * (SpaceWidth + CarWidth + SpaceWidth)
             NewLineRec = pygame.Rect(LineXCoord, 0, LineWidth, WindowHeight)
             self.LineRecSamples.append(NewLineRec)
 
@@ -308,16 +308,17 @@ class DeepCarsEnv(gym.Env):
         # -----------------------------------------------ESC for Terminate--------------------------------------------------
         # ==================================================================================================================
         # done = False
-        for event in pygame.event.get():
-            if event.type == KEYDOWN:
-                if event.key == K_ESCAPE:  # escape quits
-                    done = True
-                    self.close()
+        # for event in pygame.event.get():
+        #     if event.type == KEYDOWN:
+        #         if event.key == K_ESCAPE:  # escape quits
+        #             done = True
+        #             self.close()
 
         # return np.array(ImageData), Reward, done, {} #self.HitCarsCount, self.PassedCarsCount
         # Accuracy = round(self.PassedCarsCount / (self.PassedCarsCount + self.HitCarsCount) * 100, 2)
         # time.sleep(1)
         return ImageData, Reward, done, {}  # self.HitCarsCount, self.PassedCarsCount
+
     def render(self, mode='human', close=False):
         # =======================================Draw the game world on the window===========================================
         self.WindowSurface.fill(BackgroundColor)

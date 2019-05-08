@@ -11,3 +11,8 @@ pip install -e .
 cd baselines  
 pip install -e .  
 ```
+
+Training:
+```ruby
+python -m baselines.run --alg=deepq total_timesteps=3e5 --env=DeepCars-v0
+```
