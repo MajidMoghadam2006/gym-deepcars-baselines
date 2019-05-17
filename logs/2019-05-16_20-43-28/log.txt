@@ -1,0 +1,7 @@
+Logging to ./logs/2019-05-16_20-43-28
+Loaded model from ./model.pkl
+------------------Inpute arguments------------------
+Namespace(alg='deepq', env='DeepCars-v0', env_type=None, extra_import=None, gamestate=None, network=None, num_env=None, num_timesteps=0.0, play=True, reward_scale=1.0, save_path=None, save_video_interval=0, save_video_length=200, seed=None)
+{'load_path': './model.pkl'}
+----------------------------------------------------
+Running trained model

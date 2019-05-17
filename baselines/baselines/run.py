@@ -234,6 +234,7 @@ def main(args):
         model.save(save_path)
 
     if args.play:
+        import time
         logger.log("Running trained model")
         obs = env.reset()
 
@@ -246,11 +247,10 @@ def main(args):
                 actions, _, state, _ = model.step(obs,S=state, M=dones)
             else:
                 actions, _, _, _ = model.step(obs)
-            print(actions)
             obs, rew, done, _ = env.step(actions)
             episode_rew += rew[0]
-            print('reward = {}  ep_reward = {}'.format(rew,episode_rew))
             env.render()
+            time.sleep(0.02)
             done = done.any() if isinstance(done, np.ndarray) else done
             if done:
                 print(f'episode_rew={episode_rew}')
