@@ -58,9 +58,11 @@ def mlp(num_layers=2, num_hidden=64, activation=tf.tanh, layer_norm=False):
 
     return network_fn
 
-# Majid edition (deep_mlp):
+# ------------------------------------- Majid models ----------------------------------------------
 @register("deep_mlp")
 def deep_mlp(num_layers=4, num_hidden=[64, 128, 128, 64], activation=tf.tanh, layer_norm=False):
+    num_layers = 4
+    num_hidden = [64, 128, 128, 64]
     def network_fn(X):
         h = tf.layers.flatten(X)
         for i in range(num_layers):
@@ -72,6 +74,24 @@ def deep_mlp(num_layers=4, num_hidden=[64, 128, 128, 64], activation=tf.tanh, la
         return h
 
     return network_fn
+
+@register("shallow_mlp")
+def shallow_mlp(num_layers=1, num_hidden=[16], activation=tf.tanh, layer_norm=False):
+    num_layers = 1
+    num_hidden = [16]
+    def network_fn(X):
+        h = tf.layers.flatten(X)
+        for i in range(num_layers):
+            h = fc(h, 'mlp_fc{}'.format(i), nh=num_hidden[i], init_scale=np.sqrt(2))
+            if layer_norm:
+                h = tf.contrib.layers.layer_norm(h, center=True, scale=True)
+            h = activation(h)
+
+        return h
+
+    return network_fn
+
+# -------------------------------------------------------------------------------------------------
 
 @register("cnn")
 def cnn(**conv_kwargs):

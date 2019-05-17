@@ -2,38 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e896b6c-4aeb-4777-a71f-9a9ab58cd2ba" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/baselines/baselines/common/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/baselines/baselines/common/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baselines/baselines/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/baselines/baselines/run.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gym_deepcars/envs/deepcars_env.py" beforeDir="false" afterPath="$PROJECT_DIR$/gym_deepcars/envs/deepcars_env.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2019-05-16_19-57-52/0.0.monitor.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2019-05-16_19-57-52/log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2019-05-16_19-57-52/progress.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2019-05-16_19-58-14/0.0.monitor.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2019-05-16_19-58-14/log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2019-05-16_19-58-14/progress.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2019-05-16_20-00-30/0.0.monitor.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2019-05-16_20-00-30/log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2019-05-16_20-00-30/progress.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2019-05-16_20-01-21/0.0.monitor.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2019-05-16_20-01-21/log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2019-05-16_20-01-21/progress.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2019-05-16_20-01-28/0.0.monitor.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2019-05-16_20-01-28/log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2019-05-16_20-01-28/progress.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2019-05-16_20-01-41/0.0.monitor.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2019-05-16_20-01-41/log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2019-05-16_20-01-41/progress.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2019-05-16_20-01-53/0.0.monitor.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2019-05-16_20-01-53/log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2019-05-16_20-01-53/progress.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2019-05-16_20-02-10/0.0.monitor.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2019-05-16_20-02-10/log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2019-05-16_20-02-10/progress.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2019-05-16_20-12-54/0.0.monitor.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2019-05-16_20-12-54/log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2019-05-16_20-12-54/progress.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/progress.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/2019-05-16_20-35-57/0.0.monitor.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/2019-05-16_20-35-57/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/2019-05-16_20-35-57/progress.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/2019-05-16_20-36-33/0.0.monitor.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/2019-05-16_20-36-33/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/2019-05-16_20-36-33/progress.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/2019-05-16_20-37-38/0.0.monitor.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/2019-05-16_20-37-38/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/2019-05-16_20-37-38/progress.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/2019-05-16_20-39-06/0.0.monitor.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/2019-05-16_20-39-06/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/2019-05-16_20-39-06/progress.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/2019-05-16_20-41-41/0.0.monitor.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/2019-05-16_20-41-41/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/2019-05-16_20-41-41/model.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/2019-05-16_20-41-41/progress.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/2019-05-16_20-43-28/0.0.monitor.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/2019-05-16_20-43-28/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/2019-05-16_20-43-28/model.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/2019-05-16_20-43-28/progress.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/2019-05-16_20-45-24/0.0.monitor.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/2019-05-16_20-45-24/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/2019-05-16_20-45-24/model.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/2019-05-16_20-45-24/progress.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/2019-05-16_20-46-57/0.0.monitor.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/2019-05-16_20-46-57/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/2019-05-16_20-46-57/model.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/2019-05-16_20-46-57/progress.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/2019-05-16_20-57-42/0.0.monitor.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/2019-05-16_20-57-42/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/2019-05-16_20-57-42/progress.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/2019-05-16_20-58-00/0.0.monitor.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/2019-05-16_20-58-00/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/2019-05-16_20-58-00/progress.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/2019-05-16_20-58-12/0.0.monitor.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/2019-05-16_20-58-12/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/2019-05-16_20-58-12/progress.csv" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +53,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/baselines/baselines/run.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
+            <state relative-caret-position="3645">
               <caret line="259" selection-start-line="259" selection-end-line="259" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
@@ -58,22 +65,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gym_deepcars/envs/deepcars_env.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="134" selection-start-line="134" selection-end-line="134" />
+            <state relative-caret-position="312">
+              <caret line="140" column="60" lean-forward="true" selection-start-line="140" selection-start-column="60" selection-end-line="140" selection-end-column="60" />
               <folding>
                 <element signature="e#54#64#0" expanded="true" />
-                <element signature="e#3009#5189#0" />
-                <element signature="e#7174#7248#0" />
-                <element signature="e#7300#7527#0" />
-                <element signature="e#7599#7752#0" />
-                <element signature="e#7817#7932#0" />
-                <element signature="e#7974#8658#0" />
-                <element signature="e#8786#9307#0" />
-                <element signature="e#9364#9760#0" />
-                <element signature="e#11134#11300#0" />
-                <element signature="e#11417#11583#0" />
-                <element signature="e#11670#11741#0" />
-                <element signature="e#11919#12134#0" />
               </folding>
             </state>
           </provider>
@@ -82,8 +77,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/baselines/baselines/common/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="66" column="43" selection-start-line="66" selection-start-column="43" selection-end-line="66" selection-end-column="43" />
+            <state relative-caret-position="109">
+              <caret line="64" column="35" lean-forward="true" selection-start-line="64" selection-start-column="35" selection-end-line="64" selection-end-column="35" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -95,7 +90,7 @@
         <entry file="file://$PROJECT_DIR$/baselines/baselines/deepq/deepq.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
-              <caret line="120" column="13" lean-forward="true" selection-start-line="120" selection-start-column="13" selection-end-line="120" selection-end-column="13" />
+              <caret line="120" column="13" selection-start-line="120" selection-start-column="13" selection-end-line="120" selection-end-column="13" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -165,7 +160,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -195,6 +189,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -364,7 +359,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.23712948" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.21840873" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.21840873" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -623,7 +618,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/baselines/baselines/run.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
+        <state relative-caret-position="3645">
           <caret line="259" selection-start-line="259" selection-end-line="259" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
@@ -634,7 +629,7 @@
     <entry file="file://$PROJECT_DIR$/baselines/baselines/deepq/deepq.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="120" column="13" lean-forward="true" selection-start-line="120" selection-start-column="13" selection-end-line="120" selection-end-column="13" />
+          <caret line="120" column="13" selection-start-line="120" selection-start-column="13" selection-end-line="120" selection-end-column="13" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
@@ -643,30 +638,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gym_deepcars/envs/deepcars_env.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="134" selection-start-line="134" selection-end-line="134" />
+        <state relative-caret-position="312">
+          <caret line="140" column="60" lean-forward="true" selection-start-line="140" selection-start-column="60" selection-end-line="140" selection-end-column="60" />
           <folding>
             <element signature="e#54#64#0" expanded="true" />
-            <element signature="e#3009#5189#0" />
-            <element signature="e#7174#7248#0" />
-            <element signature="e#7300#7527#0" />
-            <element signature="e#7599#7752#0" />
-            <element signature="e#7817#7932#0" />
-            <element signature="e#7974#8658#0" />
-            <element signature="e#8786#9307#0" />
-            <element signature="e#9364#9760#0" />
-            <element signature="e#11134#11300#0" />
-            <element signature="e#11417#11583#0" />
-            <element signature="e#11670#11741#0" />
-            <element signature="e#11919#12134#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/baselines/baselines/common/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="66" column="43" selection-start-line="66" selection-start-column="43" selection-end-line="66" selection-end-column="43" />
+        <state relative-caret-position="109">
+          <caret line="64" column="35" lean-forward="true" selection-start-line="64" selection-start-column="35" selection-end-line="64" selection-end-column="35" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>

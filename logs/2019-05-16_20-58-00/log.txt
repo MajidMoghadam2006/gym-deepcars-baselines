@@ -1,7 +1,0 @@
-Logging to ./logs/2019-05-16_20-58-00
-----------------------------------
-| % time spent exploring  | 95   |
-| episodes                | 100  |
-| mean 100 episode reward | 10.4 |
-| steps                   | 1230 |
-----------------------------------
