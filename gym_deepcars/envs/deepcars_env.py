@@ -11,6 +11,7 @@ from pygame.locals import *
 
 import skimage as skimage
 from skimage import transform, color, exposure
+from skimage.color import rgb2gray
 
 # To show output image
 import time
@@ -65,6 +66,7 @@ for i in range(MaxCarsInLane):
 # No of pixels in between the vertical grids
 NoOfVerGridPixels = LaneYCoorVec[1] - LaneYCoorVec[0]
 
+NoOfGridPixels = NoOfHorGridPixels + NoOfLanes
 
 # =======================================================================================================================
 # -------------------------------------------Grid World Class-----------------------------------------------------------
@@ -74,46 +76,65 @@ class DeepCarsEnv(gym.Env):
     metadata = {'render.modes': ['human']}
 
     def __init__(self):
-        self.MainClock = 0
-        self.WindowSurface = 0
-        self.font = 0
-        self.PlayerImage = 0
-        self.CarsImageVec = 0
-        self.LineImage = 0
-        self.HorizLineImage = 0
-        self.LeftWall = 0
-        self.RightWall = 0
-        self.LineRecSamples = []
-        self.HorizLineRecSamples = []
 
-        self.observation_space = spaces.Box(low=0, high=255, shape=(IMAGE_SCALE_WIDTH, IMAGE_SCALE_HEIGHT, 3),
-                                            dtype=np.uint8)
-        self.action_space = spaces.Discrete(len(ActionList))
-
-        self.CarAddCounter = AddNewCarRate
-        self.PassedCarsCount = 1  # No. of cars that the agent has passed (start from 1 to avoid deving to 0 in SuccessRate)
-        self.HitCarsCount = 0  # No. of cars that are hit by player
-        self.OtherCarsVec = []
-        self.PlayerLane = round((NoOfLanes - 1) / 2)
-        self.PlayerRect = 0
+        # images:
+        # I know that this is not the best approach to get env images :)
+        # Requirement: image folder should be in os path (same directory as main script)
+        # print('Game images are going to be loaded from: {}/image/'.format(os.getcwd()))
         print('Game images are going to be loaded from: {}/image/'.format(os.getcwd()))
 
-    def Self_Param_Initialization(self):
+        self.PlayerImage = pygame.image.load('image/MyCar')
+        self.PlayerImage = pygame.transform.scale(self.PlayerImage, (CarWidth, CarHeight))
+
+        Car1Image = pygame.image.load('image/Car1')
+        Car1Image = pygame.transform.scale(Car1Image, (CarWidth, CarHeight))
+        Car2Image = pygame.image.load('image/Car2')
+        Car2Image = pygame.transform.scale(Car2Image, (CarWidth, CarHeight))
+        Car3Image = pygame.image.load('image/Car3')
+        Car3Image = pygame.transform.scale(Car3Image, (CarWidth, CarHeight))
+        Car4Image = pygame.image.load('image/Car4')
+        Car4Image = pygame.transform.scale(Car4Image, (CarWidth, CarHeight))
+        Car5Image = pygame.image.load('image/Car5')
+        Car5Image = pygame.transform.scale(Car5Image, (CarWidth, CarHeight))
+        Car6Image = pygame.image.load('image/Car6')
+        Car6Image = pygame.transform.scale(Car6Image, (CarWidth, CarHeight))
+
+        self.CarsImageVec = [Car1Image, Car2Image, Car3Image, Car4Image, Car5Image, Car6Image]
+
+        LeftWallImage = pygame.image.load('image/left')
+        RightWallImage = pygame.image.load('image/right')
+
+        self.LineImage = pygame.image.load('image/black')
+        self.LineImage = pygame.transform.scale(self.LineImage, (LineWidth, WindowHeight))
+
+        # Define walls
+        self.LeftWall = {'rec': pygame.Rect(0, -2 * WindowHeight, WallWidth, 3 * WindowHeight),
+                         'surface': pygame.transform.scale(LeftWallImage, (WallWidth, 3 * WindowHeight))
+                         }
+        self.RightWall = {'rec': pygame.Rect(WindowWidth - WallWidth, -2 * WindowHeight, WallWidth, 3 * WindowHeight),
+                          'surface': pygame.transform.scale(RightWallImage, (WallWidth, 3 * WindowHeight))
+                          }
+
+        self.param_initialization()
+
+    def param_initialization(self):
         self.MainClock = 0
         self.WindowSurface = 0
         self.font = 0
-        self.PlayerImage = 0
-        self.CarsImageVec = 0
-        self.LineImage = 0
-        self.HorizLineImage = 0
-        self.LeftWall = 0
-        self.RightWall = 0
         self.LineRecSamples = []
         self.HorizLineRecSamples = []
 
-        self.observation_space = spaces.Box(low=0, high=255, shape=(IMAGE_SCALE_WIDTH, IMAGE_SCALE_HEIGHT, 3),
-                                            dtype=np.uint8)
+        # If you want game frames as observation:
+        # self.observation_space = spaces.Box(low=0, high=255, shape=(IMAGE_SCALE_WIDTH, IMAGE_SCALE_HEIGHT),
+        #                                     dtype=np.uint8)
+
+        # observation: 0: empty grid   1: an actor in grid   2: ego in grid
+        discreteHigh = np.ones(((MaxCarsInLane - 1), NoOfLanes), dtype = int).flatten()*3
+        self.observation_space = spaces.MultiDiscrete(discreteHigh) # e.g. s = [0 0 1 0 ... 0 2 0]
+        # You may use self.observation_space.sample() to see an example observation
+
         self.action_space = spaces.Discrete(len(ActionList))
+        # You may use self.action_space.sample() to see an example action
 
         self.CarAddCounter = AddNewCarRate
         self.PassedCarsCount = 1  # No. of cars that the agent has passed (start from 1 to avoid deving to 0 in SuccessRate)
@@ -121,6 +142,21 @@ class DeepCarsEnv(gym.Env):
         self.OtherCarsVec = []
         self.PlayerLane = round((NoOfLanes - 1) / 2)
         self.PlayerRect = 0
+        self.reset_flag = False
+
+        # Define line rectangles
+        for i in range(NoOfLanes - 1):
+            LineXCoord = WallWidth + i * LineWidth + (i + 1) * (SpaceWidth + CarWidth + SpaceWidth)
+            NewLineRec = pygame.Rect(LineXCoord, 0, LineWidth, WindowHeight)
+            self.LineRecSamples.append(NewLineRec)
+
+        for i in range(MaxCarsInLane - 1):
+            LineYCoord = LaneYCoorVec[i + 1]
+            NewLineRec = pygame.Rect(0, LineYCoord, WindowWidth, LineWidth)
+            self.HorizLineRecSamples.append(NewLineRec)
+
+        self.PlayerRect = self.PlayerImage.get_rect()
+        self.PlayerRect.topleft = (LaneXCoorVec[self.PlayerLane], LaneYCoorVec[MaxCarsInLane - 2])
 
     def close(self):
         pygame.quit()
@@ -128,13 +164,10 @@ class DeepCarsEnv(gym.Env):
         # sys.exit()
 
     def reset(self):  # Get initial state
-        self.Self_Param_Initialization()        # Initialize self parameters
-        self.PygameInitialize()
-        # a = self.action_space.sample()  # Take a random action
-        ImageData, Reward, done, __ = self.step(1)
-        # obs = self.observation_space.sample()   # Sample an observation with the correct dimensions and format
-        # obs[:] = 0                              # Set the observations to zero as the initial observation in game
-        return ImageData
+        self.param_initialization()        # Initialize self parameters
+        self.reset_flag = True             # This will be used to initiate Pygame display in render
+        obs, Reward, done, __ = self.step(1)
+        return obs
 
     def DrawText(self, text, font, TextColor, surface, x, y):
         textobj = font.render(text, 1, TextColor)
@@ -160,57 +193,6 @@ class DeepCarsEnv(gym.Env):
         pygame.mouse.set_visible(False)
         self.font = pygame.font.SysFont(None, 30)
 
-        # images:
-        # I know that this is not the best approach to get env images :)
-        # Requirement: image folder should be in os path (same directory as main script)
-        # print('Game images are going to be loaded from: {}/image/'.format(os.getcwd()))
-
-        self.PlayerImage = pygame.image.load('image/MyCar')
-        self.PlayerImage = pygame.transform.scale(self.PlayerImage, (CarWidth, CarHeight))
-
-        Car1Image = pygame.image.load('image/Car1')
-        Car1Image = pygame.transform.scale(Car1Image, (CarWidth, CarHeight))
-        Car2Image = pygame.image.load('image/Car2')
-        Car2Image = pygame.transform.scale(Car2Image, (CarWidth, CarHeight))
-        Car3Image = pygame.image.load('image/Car3')
-        Car3Image = pygame.transform.scale(Car3Image, (CarWidth, CarHeight))
-        Car4Image = pygame.image.load('image/Car4')
-        Car4Image = pygame.transform.scale(Car4Image, (CarWidth, CarHeight))
-        Car5Image = pygame.image.load('image/Car5')
-        Car5Image = pygame.transform.scale(Car5Image, (CarWidth, CarHeight))
-        Car6Image = pygame.image.load('image/Car6')
-        Car6Image = pygame.transform.scale(Car6Image, (CarWidth, CarHeight))
-
-        self.CarsImageVec = [Car1Image,Car2Image,Car3Image,Car4Image,Car5Image, Car6Image]
-
-        LeftWallImage = pygame.image.load('image/left')
-        RightWallImage = pygame.image.load('image/right')
-
-        self.LineImage = pygame.image.load('image/black')
-        self.LineImage = pygame.transform.scale(self.LineImage, (LineWidth, WindowHeight))
-
-        # Define walls
-        self.LeftWall = {'rec': pygame.Rect(0, -2 * WindowHeight, WallWidth, 3 * WindowHeight),
-                         'surface': pygame.transform.scale(LeftWallImage, (WallWidth, 3 * WindowHeight))
-                         }
-        self.RightWall = {'rec': pygame.Rect(WindowWidth - WallWidth, -2 * WindowHeight, WallWidth, 3 * WindowHeight),
-                          'surface': pygame.transform.scale(RightWallImage, (WallWidth, 3 * WindowHeight))
-                          }
-
-        # Define line rectangles
-        for i in range(NoOfLanes - 1):
-            LineXCoord = WallWidth + i * LineWidth + (i + 1) * (SpaceWidth + CarWidth + SpaceWidth)
-            NewLineRec = pygame.Rect(LineXCoord, 0, LineWidth, WindowHeight)
-            self.LineRecSamples.append(NewLineRec)
-
-        for i in range(MaxCarsInLane - 1):
-            LineYCoord = LaneYCoorVec[i + 1]
-            NewLineRec = pygame.Rect(0, LineYCoord, WindowWidth, LineWidth)
-            self.HorizLineRecSamples.append(NewLineRec)
-
-        self.PlayerRect = self.PlayerImage.get_rect()
-        self.PlayerRect.topleft = (LaneXCoorVec[self.PlayerLane], LaneYCoorVec[MaxCarsInLane - 2])
-
         # print('The game has initiated')
 
     # Prepare the game screen as the observation vector suitable for Keras
@@ -226,8 +208,9 @@ class DeepCarsEnv(gym.Env):
 
     def baselines_preprocess(self, ImageData):
         ImageData = np.flipud(ImageData)
+        ImageData = rgb2gray(ImageData)
         ImageData = ImageData[WallWidth:WindowWidth - WallWidth, CarHeight + 4 * SpaceWidth:]   # Crop useful space
-        ImageData = skimage.transform.resize(ImageData, (IMAGE_SCALE_WIDTH, IMAGE_SCALE_HEIGHT, 3))
+        ImageData = skimage.transform.resize(ImageData, (IMAGE_SCALE_WIDTH, IMAGE_SCALE_HEIGHT))
         ImageData = skimage.exposure.rescale_intensity(ImageData, out_range=(0, 255))
         return ImageData
 
@@ -281,24 +264,40 @@ class DeepCarsEnv(gym.Env):
         # ==================================================================================================================
         # ------------------------------------------------Game state----------------------------------------------------
         # ==================================================================================================================
-        self.render()
-        ImageData = pygame.surfarray.array3d(pygame.display.get_surface())
+        # --------- for taining using game frames: ----------
+        # self.render()
+        # ImageData = pygame.surfarray.array3d(pygame.display.get_surface())
 
         # ImageData = self.keras_preprocess(ImageData)
-        ImageData = self.baselines_preprocess(ImageData)
+        # ImageData = self.baselines_preprocess(ImageData)
 
-        # # Show the output image
+        # Show the output image
         # toimage(ImageData).show()
         # time.sleep(1)
+        # ---------------------------------------------------
+
+        # Calulate environment matrix to create a state vector of the world
+
+        # Initialize environment matrix
+        EnvMat = np.zeros(((MaxCarsInLane - 1), NoOfLanes))
+
+        # Fill other actors grid as 1 in environment matrix
+        for Car in self.OtherCarsVec:
+            EnvMat[MaxCarsInLane - Car['YCoord'] - 2, Car['XCoord']] = 1
+
+        # Fill my car grid as 2 in environment matrix
+        EnvMat[MaxCarsInLane - 2, self.PlayerLane] = 2
+
+        obs = EnvMat.flatten()
 
         # ==================================================================================================================
         # --------------------------------------------Reward function---------------------------------------------------
         # ==================================================================================================================
         done = False
         if self.PlayerHasHitBaddie(self.PlayerRect, self.OtherCarsVec):
-            Reward = -1000
+            Reward = -1
             done = True
-            print('Passed cars: {}'.format(self.PassedCarsCount))
+            # print('Passed cars: {}'.format(self.PassedCarsCount))
             self.PassedCarsCount -= 1
             self.HitCarsCount += 1
         else:
@@ -317,10 +316,15 @@ class DeepCarsEnv(gym.Env):
         # return np.array(ImageData), Reward, done, {} #self.HitCarsCount, self.PassedCarsCount
         # Accuracy = round(self.PassedCarsCount / (self.PassedCarsCount + self.HitCarsCount) * 100, 2)
         # time.sleep(1)
-        return ImageData, Reward, done, {}  # self.HitCarsCount, self.PassedCarsCount
+
+        return obs, Reward, done, {}  # self.HitCarsCount, self.PassedCarsCount
 
     def render(self, mode='human', close=False):
         # =======================================Draw the game world on the window===========================================
+        if self.reset_flag:
+            self.PygameInitialize()
+            self.reset_flag = False
+
         self.WindowSurface.fill(BackgroundColor)
 
         for i in range(0, len(self.LineRecSamples)):

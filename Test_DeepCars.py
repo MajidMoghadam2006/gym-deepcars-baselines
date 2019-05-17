@@ -3,6 +3,7 @@
 import gym
 import gym_deepcars
 import time
+import numpy as np
 
 env = gym.make('DeepCars-v0')
 
@@ -11,7 +12,10 @@ obs = env.reset()
 
 for _ in range(10000):
     a = env.action_space.sample()  # Take a random action
-    ImageData, Reward, done, __ = env.step(a)
-    print(_)
+    obs, Reward, done, __ = env.step(a)
+    obs2 = env.observation_space.sample()
+    env.render()
     time.sleep(.2)
+    if done:
+        env.reset()
 

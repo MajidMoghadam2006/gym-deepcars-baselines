@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e896b6c-4aeb-4777-a71f-9a9ab58cd2ba" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/baselines/baselines/deepq/deepq.py" beforeDir="false" afterPath="$PROJECT_DIR$/baselines/baselines/deepq/deepq.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SLURM/HB-sbatch-DeepCars-CPU-01.slurm" beforeDir="false" afterPath="$PROJECT_DIR$/SLURM/HB-sbatch-DeepCars-CPU-01.slurm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test_DeepCars.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test_DeepCars.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/baselines/baselines/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/baselines/baselines/run.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gym_deepcars/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/gym_deepcars/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gym_deepcars/envs/deepcars_env.py" beforeDir="false" afterPath="$PROJECT_DIR$/gym_deepcars/envs/deepcars_env.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,11 +15,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/baselines/baselines/run.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
+            <state relative-caret-position="15">
               <caret line="20" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
@@ -28,24 +29,49 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/baselines/baselines/deepq/deepq.py">
+        <entry file="file://$PROJECT_DIR$/gym_deepcars/envs/deepcars_env.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="330" column="37" lean-forward="true" selection-start-line="330" selection-start-column="37" selection-end-line="330" selection-end-column="37" />
+            <state relative-caret-position="315">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
               <folding>
-                <element signature="e#0#9#0" expanded="true" />
+                <element signature="e#54#64#0" expanded="true" />
+                <element signature="e#3009#5189#0" />
+                <element signature="e#5235#7143#0" />
+                <element signature="e#7174#7248#0" />
+                <element signature="e#7300#7527#0" />
+                <element signature="e#7599#7752#0" />
+                <element signature="e#7817#7932#0" />
+                <element signature="e#7974#8658#0" />
+                <element signature="e#8786#9307#0" />
+                <element signature="e#9364#9760#0" />
+                <element signature="e#11134#11300#0" />
+                <element signature="e#11417#11583#0" />
+                <element signature="e#11670#11741#0" />
+                <element signature="e#11919#12134#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gym_deepcars/envs/deepcars_env.py">
+        <entry file="file://$PROJECT_DIR$/Test_DeepCars.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2805">
-              <caret line="88" column="76" selection-start-line="88" selection-start-column="76" selection-end-line="88" selection-end-column="76" />
+            <state relative-caret-position="240">
+              <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
               <folding>
-                <element signature="e#54#64#0" expanded="true" />
+                <element signature="e#86#96#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/baselines/baselines/deepq/deepq.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4470">
+              <caret line="320" column="31" selection-start-line="320" selection-start-column="31" selection-end-line="320" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -63,7 +89,6 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>get_network_builder</find>
-      <find>build_train</find>
       <find>tf</find>
       <find>append</find>
       <find>beta</find>
@@ -76,6 +101,8 @@
       <find>mlp</find>
       <find>step</find>
       <find>print</find>
+      <find>build_train</find>
+      <find>atari_py</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -86,19 +113,22 @@
       <list>
         <option value="$PROJECT_DIR$/Test_baselines_Atari.py" />
         <option value="$USER_HOME$/Desktop/Files/ITU PhD/AVL Autonomous Car Project/Source_Codes/PyCharmProjects_Backup/DeepCars_DQN_V3/DeepCars.py" />
-        <option value="$PROJECT_DIR$/Test_DeepCars.py" />
         <option value="$PROJECT_DIR$/Test_tf.py" />
         <option value="$PROJECT_DIR$/Gym-DeepCars-baselines.py" />
         <option value="$PROJECT_DIR$/setup.py" />
         <option value="$PROJECT_DIR$/gym_deepcars/__init__.py" />
-        <option value="$PROJECT_DIR$/gym_deepcars/envs/deepcars_env.py" />
-        <option value="$PROJECT_DIR$/baselines/baselines/run.py" />
         <option value="$PROJECT_DIR$/baselines/baselines/deepq/deepq.py" />
+        <option value="$PROJECT_DIR$/venv/lib/python3.6/site-packages/gym/spaces/test.py" />
+        <option value="$PROJECT_DIR$/baselines/baselines/run.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/Test_DeepCars.py" />
+        <option value="$PROJECT_DIR$/gym_deepcars/envs/deepcars_env.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="95" />
+    <option name="x" value="105" />
+    <option name="y" value="57" />
     <option name="width" value="1163" />
     <option name="height" value="662" />
   </component>
@@ -118,13 +148,13 @@
             <path>
               <item name="gym-deepcars-baselines" type="b2602c69:ProjectViewProjectNode" />
               <item name="gym-deepcars-baselines" type="462c0819:PsiDirectoryNode" />
-              <item name="baselines" type="462c0819:PsiDirectoryNode" />
+              <item name="gym_deepcars" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gym-deepcars-baselines" type="b2602c69:ProjectViewProjectNode" />
               <item name="gym-deepcars-baselines" type="462c0819:PsiDirectoryNode" />
-              <item name="baselines" type="462c0819:PsiDirectoryNode" />
-              <item name="baselines" type="462c0819:PsiDirectoryNode" />
+              <item name="gym_deepcars" type="462c0819:PsiDirectoryNode" />
+              <item name="envs" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -136,7 +166,10 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myShowDebugConsoleByDefault" value="true" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -150,7 +183,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Gym-DeepCars-baselines">
+  <component name="RunManager" selected="Python.Test_DeepCars">
     <configuration name="Gym-DeepCars-baselines" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="gym-deepcars-baselines" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -235,17 +268,40 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="gym-deepcars-baselines" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.Gym-DeepCars-baselines" />
       <item itemvalue="Python.Test_DeepCars" />
       <item itemvalue="Python.Test_baselines_Atari" />
       <item itemvalue="Python.Test_tf" />
+      <item itemvalue="Python.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Test_DeepCars" />
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.Gym-DeepCars-baselines" />
         <item itemvalue="Python.Test_tf" />
-        <item itemvalue="Python.Test_DeepCars" />
         <item itemvalue="Python.Test_baselines_Atari" />
       </list>
     </recent_temporary>
@@ -272,15 +328,15 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.23866667" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.252" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.23712948" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.43213728" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32917318" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -321,13 +377,6 @@
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/Desktop/gym-deepcars-baselines 9.03.47 PM/Gym-DeepCars-baselines-Test.py" />
     <entry file="file://$USER_HOME$/Desktop/gym-deepcars-baselines 9.03.47 PM/Gym-DeepCars-baselines.py" />
-    <entry file="file://$PROJECT_DIR$/Test_baselines_Atari.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../Environments/gym-deepcars-env/lib/python3.6/site-packages/gym/envs/__init__.py" />
     <entry file="file://$PROJECT_DIR$/../Environments/gym-deepcars-env/lib/python3.6/site-packages/gym/__init__.py" />
     <entry file="file://$PROJECT_DIR$/../Environments/gym-deepcars-env/lib/python3.6/site-packages/gym/core.py" />
@@ -349,32 +398,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../DeepCars_DQN_V3/DeepCars.py" />
-    <entry file="file://$PROJECT_DIR$/../DeepCars_DQN_V3/ARC_AVL_DQN_Train.py" />
-    <entry file="file://$PROJECT_DIR$/Test_DeepCars.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baselines/baselines/deepq/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="57" lean-forward="true" selection-start-line="1" selection-start-column="57" selection-end-line="1" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/baselines/baselines/common/tf_util.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="203" column="28" selection-start-line="203" selection-start-column="28" selection-end-line="203" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baselines/baselines/deepq/build_graph.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="387" column="17" lean-forward="true" selection-start-line="387" selection-start-column="17" selection-end-line="387" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -383,26 +410,6 @@
         <state relative-caret-position="75">
           <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baselines/baselines/common/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="68" column="20" selection-start-line="68" selection-start-column="11" selection-end-line="68" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baselines/baselines/deepq/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="101" column="47" selection-start-line="101" selection-start-column="47" selection-end-line="101" selection-end-column="47" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -446,26 +453,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///media/majid/6282001418/run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="23" column="24" lean-forward="true" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gym_deepcars/envs/deepcars_env.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2805">
-          <caret line="88" column="76" selection-start-line="88" selection-start-column="76" selection-end-line="88" selection-end-column="76" />
-          <folding>
-            <element signature="e#54#64#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file:///media/majid/6282001418/run.py" />
     <entry file="file://$PROJECT_DIR$/baselines/baselines/run0.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -476,10 +464,112 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/baselines/baselines/run.py">
+    <entry file="file://$PROJECT_DIR$/../DeepCars_DQN_V3/ARC_AVL_DQN_Train.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="124">
+          <caret line="45" column="46" lean-forward="true" selection-start-line="45" selection-start-column="46" selection-end-line="45" selection-end-column="46" />
+          <folding>
+            <element signature="e#539#562#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baselines/baselines/deepq/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="56" selection-start-line="1" selection-start-column="56" selection-end-line="1" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baselines/baselines/deepq/build_graph.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="379" column="31" selection-start-line="379" selection-start-column="31" selection-end-line="379" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baselines/baselines/deepq/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baselines/baselines/common/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baselines/baselines/common/input.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="72" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="72" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baselines/baselines/deepq/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="52" column="41" selection-start-line="52" selection-start-column="41" selection-end-line="52" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/gym/spaces/test.py" />
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/gym/envs/atari/atari_env.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="100" column="37" selection-start-line="100" selection-start-column="24" selection-end-line="100" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test_baselines_Atari.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/gym/spaces/box.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="31" column="42" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/gym/spaces/discrete.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="47" lean-forward="true" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
@@ -488,10 +578,53 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/baselines/baselines/deepq/deepq.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="330" column="37" lean-forward="true" selection-start-line="330" selection-start-column="37" selection-end-line="330" selection-end-column="37" />
+        <state relative-caret-position="4470">
+          <caret line="320" column="31" selection-start-line="320" selection-start-column="31" selection-end-line="320" selection-end-column="31" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test_DeepCars.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+          <folding>
+            <element signature="e#86#96#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baselines/baselines/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gym_deepcars/envs/deepcars_env.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#54#64#0" expanded="true" />
+            <element signature="e#3009#5189#0" />
+            <element signature="e#5235#7143#0" />
+            <element signature="e#7174#7248#0" />
+            <element signature="e#7300#7527#0" />
+            <element signature="e#7599#7752#0" />
+            <element signature="e#7817#7932#0" />
+            <element signature="e#7974#8658#0" />
+            <element signature="e#8786#9307#0" />
+            <element signature="e#9364#9760#0" />
+            <element signature="e#11134#11300#0" />
+            <element signature="e#11417#11583#0" />
+            <element signature="e#11670#11741#0" />
+            <element signature="e#11919#12134#0" />
           </folding>
         </state>
       </provider>

@@ -1,0 +1,37 @@
+Logging to ./logs/2019-05-16_18-29-26
+----------------------------------
+| % time spent exploring  | 98   |
+| episodes                | 100  |
+| mean 100 episode reward | 10.4 |
+| steps                   | 1222 |
+----------------------------------
+----------------------------------
+| % time spent exploring  | 97   |
+| episodes                | 200  |
+| mean 100 episode reward | 9.6  |
+| steps                   | 2384 |
+----------------------------------
+----------------------------------
+| % time spent exploring  | 96   |
+| episodes                | 300  |
+| mean 100 episode reward | 9.9  |
+| steps                   | 3578 |
+----------------------------------
+----------------------------------
+| % time spent exploring  | 95   |
+| episodes                | 400  |
+| mean 100 episode reward | 10.3 |
+| steps                   | 4809 |
+----------------------------------
+----------------------------------
+| % time spent exploring  | 94   |
+| episodes                | 500  |
+| mean 100 episode reward | 10.8 |
+| steps                   | 6092 |
+----------------------------------
+----------------------------------
+| % time spent exploring  | 92   |
+| episodes                | 600  |
+| mean 100 episode reward | 10.5 |
+| steps                   | 7345 |
+----------------------------------

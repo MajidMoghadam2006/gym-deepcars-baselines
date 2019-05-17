@@ -16,8 +16,8 @@ import gym_deepcars
 
 import os
 
-os.environ['SDL_AUDIODRIVER'] = "dummy"  # Create a AUDIO DRIVER to not produce the pygame sound
-os.environ["SDL_VIDEODRIVER"] = "dummy"  # Create a dummy window to not show the pygame window
+# os.environ['SDL_AUDIODRIVER'] = "dummy"  # Create a AUDIO DRIVER to not produce the pygame sound
+# os.environ["SDL_VIDEODRIVER"] = "dummy"  # Create a dummy window to not show the pygame window
 
 try:
     from mpi4py import MPI
