@@ -12,7 +12,9 @@ from gym import error, spaces, utils
 # print(obs.sample())
 # print(np.shape(temp))
 
-obs_space = spaces.MultiDiscrete(np.ones(5, dtype = int)*3)
+low = np.ones(5, dtype = int)*0
+high = np.ones(5, dtype = int)*2
+obs_space = spaces.Box(low, high, dtype = int)
 
 temp = obs_space.sample()
 

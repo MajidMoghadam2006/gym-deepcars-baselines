@@ -129,8 +129,12 @@ class DeepCarsEnv(gym.Env):
         #                                     dtype=np.uint8)
 
         # observation: 0: empty grid   1: an actor in grid   2: ego in grid
-        discreteHigh = np.ones(((MaxCarsInLane - 1), NoOfLanes), dtype = int).flatten()*3
-        self.observation_space = spaces.MultiDiscrete(discreteHigh) # e.g. s = [0 0 1 0 ... 0 2 0]
+        # discreteHigh = np.ones(((MaxCarsInLane - 1), NoOfLanes), dtype = int).flatten()*3
+        # self.observation_space = spaces.MultiDiscrete(discreteHigh) # e.g. s = [0 0 1 0 ... 0 2 0]
+
+        boxLow = np.ones((MaxCarsInLane - 1)*NoOfLanes, dtype=int) * 0
+        boxHigh = np.ones((MaxCarsInLane - 1)*NoOfLanes, dtype=int) * 2
+        self.observation_space = spaces.Box(boxLow, boxHigh, dtype=int)
         # You may use self.observation_space.sample() to see an example observation
 
         self.action_space = spaces.Discrete(len(ActionList))
@@ -279,7 +283,7 @@ class DeepCarsEnv(gym.Env):
         # Calulate environment matrix to create a state vector of the world
 
         # Initialize environment matrix
-        EnvMat = np.zeros(((MaxCarsInLane - 1), NoOfLanes))
+        EnvMat = np.zeros(((MaxCarsInLane - 1), NoOfLanes), dtype=int)
 
         # Fill other actors grid as 1 in environment matrix
         for Car in self.OtherCarsVec:
