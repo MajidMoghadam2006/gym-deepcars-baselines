@@ -2,47 +2,105 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e896b6c-4aeb-4777-a71f-9a9ab58cd2ba" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baselines/baselines/common/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/baselines/baselines/common/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2019-05-16_20-35-57/0.0.monitor.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2019-05-16_20-35-57/log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2019-05-16_20-35-57/progress.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2019-05-16_20-36-33/0.0.monitor.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2019-05-16_20-36-33/log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2019-05-16_20-36-33/progress.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2019-05-16_20-37-38/0.0.monitor.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2019-05-16_20-37-38/log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2019-05-16_20-37-38/progress.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2019-05-16_20-39-06/0.0.monitor.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2019-05-16_20-39-06/log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2019-05-16_20-39-06/progress.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2019-05-16_20-41-41/0.0.monitor.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2019-05-16_20-41-41/log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2019-05-16_20-41-41/model.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2019-05-16_20-41-41/progress.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2019-05-16_20-43-28/0.0.monitor.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2019-05-16_20-43-28/log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2019-05-16_20-43-28/model.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2019-05-16_20-43-28/progress.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2019-05-16_20-45-24/0.0.monitor.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2019-05-16_20-45-24/log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2019-05-16_20-45-24/model.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2019-05-16_20-45-24/progress.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2019-05-16_20-46-57/0.0.monitor.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2019-05-16_20-46-57/log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2019-05-16_20-46-57/model.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2019-05-16_20-46-57/progress.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2019-05-16_20-57-42/0.0.monitor.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2019-05-16_20-57-42/log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2019-05-16_20-57-42/progress.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2019-05-16_20-58-00/0.0.monitor.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2019-05-16_20-58-00/log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2019-05-16_20-58-00/progress.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2019-05-16_20-58-12/0.0.monitor.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2019-05-16_20-58-12/log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2019-05-16_20-58-12/progress.csv" beforeDir="false" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-08_15-31-32/log.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-08_15-31-32/progress.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-08_15-32-48/0.0.monitor.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-08_15-32-48/log.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-08_15-32-48/progress.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-08_15-35-24/0.0.monitor.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-08_15-35-24/log.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-08_15-35-24/progress.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-08_15-36-03/0.0.monitor.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-08_15-36-03/log.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-08_15-36-03/progress.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-08_15-38-40/0.0.monitor.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-08_15-38-40/log.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-08_15-38-40/progress.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-08_15-39-28/0.0.monitor.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-08_15-39-28/log.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-08_15-39-28/progress.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-08_15-39-56/0.0.monitor.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-08_15-39-56/log.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-08_15-39-56/progress.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-08_15-40-32/0.0.monitor.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-08_15-40-32/log.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-08_15-40-32/progress.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-08_15-41-49/0.0.monitor.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-08_15-41-49/log.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-08_15-41-49/progress.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-08_15-42-25/0.0.monitor.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-08_15-42-25/log.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-08_15-42-25/progress.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-08_15-42-47/0.0.monitor.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-08_15-42-47/log.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-08_15-42-47/progress.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-08_15-44-03/0.0.monitor.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-08_15-44-03/log.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-08_15-44-03/progress.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-08_16-30-42/0.0.monitor.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-08_16-30-42/log.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-08_16-30-42/progress.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-08_16-32-54/0.0.monitor.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-08_16-32-54/log.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-08_16-32-54/progress.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-08_16-35-53/0.0.monitor.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-08_16-35-53/log.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-08_16-35-53/progress.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-08_16-37-30/0.0.monitor.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-08_16-37-30/log.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-08_16-37-30/model" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-08_16-37-30/progress.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-08_18-13-00/0.0.monitor.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-08_18-13-00/log.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-08_18-13-00/progress.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-09_13-35-38/0.0.monitor.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-09_13-35-38/log.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-09_13-35-38/model" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-09_13-35-38/progress.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-14_18-07-43/log.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-14_18-07-43/progress.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-14_18-11-58/log.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-14_18-11-58/progress.csv" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/2019-05-16_18-35-00 - stable/model" afterPath="$PROJECT_DIR$/logs/2019-05-16_18-35-00 - stable/model" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/2019-05-16_18-35-00 - stable/model.pkl" afterPath="$PROJECT_DIR$/logs/2019-05-16_18-35-00 - stable/model.pkl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/2019-05-16_18-35-00/model" afterPath="$PROJECT_DIR$/logs/2019-05-16_18-35-00/model" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/2019-05-16_18-35-00/model.pkl" afterPath="$PROJECT_DIR$/logs/2019-05-16_18-35-00/model.pkl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/2019-05-16_19-38-09/model" afterPath="$PROJECT_DIR$/logs/2019-05-16_19-38-09/model" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/2019-05-16_19-38-09/model.pkl" afterPath="$PROJECT_DIR$/logs/2019-05-16_19-38-09/model.pkl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/2019-05-16_19-39-46/model" afterPath="$PROJECT_DIR$/logs/2019-05-16_19-39-46/model" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/2019-05-16_19-39-46/model.pkl" afterPath="$PROJECT_DIR$/logs/2019-05-16_19-39-46/model.pkl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/2019-05-16_20-02-36/model" afterPath="$PROJECT_DIR$/logs/2019-05-16_20-02-36/model" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/2019-05-16_20-02-36/model.pkl" afterPath="$PROJECT_DIR$/logs/2019-05-16_20-02-36/model.pkl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/2019-05-16_21-03-21/model" afterPath="$PROJECT_DIR$/logs/2019-05-16_21-03-21/model" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/2019-05-16_21-03-21/model.pkl" afterPath="$PROJECT_DIR$/logs/2019-05-16_21-03-21/model.pkl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gym-deepcars-baselines.iml" afterPath="$PROJECT_DIR$/.idea/gym-deepcars-baselines.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baselines/baselines.egg-info/PKG-INFO" afterPath="$PROJECT_DIR$/baselines/baselines.egg-info/PKG-INFO" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baselines/baselines.egg-info/SOURCES.txt" afterPath="$PROJECT_DIR$/baselines/baselines.egg-info/SOURCES.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/2019-05-16_18-35-00 - stable/.~lock.progress.csv#" afterPath="$PROJECT_DIR$/logs/2019-05-16_18-35-00 - stable/.~lock.progress.csv#" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/2019-05-16_18-35-00 - stable/0.0.monitor.csv" afterPath="$PROJECT_DIR$/logs/2019-05-16_18-35-00 - stable/0.0.monitor.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/2019-05-16_18-35-00 - stable/log.txt" afterPath="$PROJECT_DIR$/logs/2019-05-16_18-35-00 - stable/log.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/2019-05-16_18-35-00 - stable/progress.csv" afterPath="$PROJECT_DIR$/logs/2019-05-16_18-35-00 - stable/progress.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/2019-05-16_18-35-00/0.0.monitor.csv" afterPath="$PROJECT_DIR$/logs/2019-05-16_18-35-00/0.0.monitor.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/2019-05-16_18-35-00/log.txt" afterPath="$PROJECT_DIR$/logs/2019-05-16_18-35-00/log.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/2019-05-16_18-35-00/progress.csv" afterPath="$PROJECT_DIR$/logs/2019-05-16_18-35-00/progress.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/2019-05-16_19-38-09/0.0.monitor.csv" afterPath="$PROJECT_DIR$/logs/2019-05-16_19-38-09/0.0.monitor.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/2019-05-16_19-38-09/log.txt" afterPath="$PROJECT_DIR$/logs/2019-05-16_19-38-09/log.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/2019-05-16_19-38-09/progress.csv" afterPath="$PROJECT_DIR$/logs/2019-05-16_19-38-09/progress.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/2019-05-16_19-39-46/0.0.monitor.csv" afterPath="$PROJECT_DIR$/logs/2019-05-16_19-39-46/0.0.monitor.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/2019-05-16_19-39-46/log.txt" afterPath="$PROJECT_DIR$/logs/2019-05-16_19-39-46/log.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/2019-05-16_19-39-46/progress.csv" afterPath="$PROJECT_DIR$/logs/2019-05-16_19-39-46/progress.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/2019-05-16_20-02-36/0.0.monitor.csv" afterPath="$PROJECT_DIR$/logs/2019-05-16_20-02-36/0.0.monitor.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/2019-05-16_20-02-36/log.txt" afterPath="$PROJECT_DIR$/logs/2019-05-16_20-02-36/log.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/2019-05-16_20-02-36/progress.csv" afterPath="$PROJECT_DIR$/logs/2019-05-16_20-02-36/progress.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/2019-05-16_21-03-21/0.0.monitor.csv" afterPath="$PROJECT_DIR$/logs/2019-05-16_21-03-21/0.0.monitor.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/2019-05-16_21-03-21/log.txt" afterPath="$PROJECT_DIR$/logs/2019-05-16_21-03-21/log.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/2019-05-16_21-03-21/progress.csv" afterPath="$PROJECT_DIR$/logs/2019-05-16_21-03-21/progress.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/requirements.txt" afterPath="$PROJECT_DIR$/requirements.txt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,49 +108,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file leaf-file-name="run.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/baselines/baselines/run.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3645">
-              <caret line="259" selection-start-line="259" selection-end-line="259" />
+            <state relative-caret-position="486">
+              <caret line="266" column="0" lean-forward="false" selection-start-line="266" selection-start-column="0" selection-end-line="266" selection-end-column="0" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gym_deepcars/envs/deepcars_env.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="140" column="60" lean-forward="true" selection-start-line="140" selection-start-column="60" selection-end-line="140" selection-end-column="60" />
-              <folding>
-                <element signature="e#54#64#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/baselines/baselines/common/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="109">
-              <caret line="64" column="35" lean-forward="true" selection-start-line="64" selection-start-column="35" selection-end-line="64" selection-end-column="35" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/baselines/baselines/deepq/deepq.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="120" column="13" selection-start-line="120" selection-start-column="13" selection-end-line="120" selection-end-column="13" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -143,17 +165,16 @@
         <option value="$PROJECT_DIR$/baselines/baselines/deepq/deepq.py" />
         <option value="$PROJECT_DIR$/Test_DeepCars.py" />
         <option value="$PROJECT_DIR$/test.py" />
-        <option value="$PROJECT_DIR$/baselines/baselines/run.py" />
         <option value="$PROJECT_DIR$/gym_deepcars/envs/deepcars_env.py" />
         <option value="$PROJECT_DIR$/baselines/baselines/common/models.py" />
+        <option value="$PROJECT_DIR$/baselines/baselines/run.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="105" />
-    <option name="y" value="57" />
-    <option name="width" value="1163" />
-    <option name="height" value="662" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="709" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -196,7 +217,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myShowDebugConsoleByDefault" value="true" />
@@ -213,9 +234,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test">
+  <component name="RunManager">
     <configuration name="Gym-DeepCars-baselines" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="gym-deepcars-baselines" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -226,17 +246,13 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="gym-deepcars-baselines" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Gym-DeepCars-baselines.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
     </configuration>
     <configuration name="Test_DeepCars" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="gym-deepcars-baselines" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -247,17 +263,13 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="gym-deepcars-baselines" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Test_DeepCars.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
     </configuration>
     <configuration name="Test_baselines_Atari" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="gym-deepcars-baselines" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -268,17 +280,13 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="gym-deepcars-baselines" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Test_baselines_Atari.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
     </configuration>
     <configuration name="Test_tf" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="gym-deepcars-baselines" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -289,17 +297,13 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="gym-deepcars-baselines" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Test_tf.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
     </configuration>
     <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="gym-deepcars-baselines" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -310,31 +314,31 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="gym-deepcars-baselines" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
     </configuration>
-    <list>
-      <item itemvalue="Python.Gym-DeepCars-baselines" />
-      <item itemvalue="Python.Test_DeepCars" />
-      <item itemvalue="Python.Test_baselines_Atari" />
-      <item itemvalue="Python.Test_tf" />
-      <item itemvalue="Python.test" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python.Gym-DeepCars-baselines" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Test_baselines_Atari" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Test_tf" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Test_DeepCars" />
+      <item index="4" class="java.lang.String" itemvalue="Python.test" />
     </list>
     <recent_temporary>
-      <list>
-        <item itemvalue="Python.test" />
-        <item itemvalue="Python.Test_DeepCars" />
-        <item itemvalue="Python.Gym-DeepCars-baselines" />
-        <item itemvalue="Python.Test_tf" />
-        <item itemvalue="Python.Test_baselines_Atari" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.test" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Test_DeepCars" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Test_tf" />
+        <item index="3" class="java.lang.String" itemvalue="Python.Test_baselines_Atari" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Gym-DeepCars-baselines" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -350,48 +354,31 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-2" width="1301" height="770" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="709" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19483568" />
-      <window_info id="Structure" order="1" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.23712948" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.21840873" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32917318" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Data View" order="3" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22691706" />
-      <window_info id="Structure" order="1" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.23866667" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.252" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Data View" order="3" />
-    </layout-to-restore>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -403,8 +390,47 @@
         </breakpoint>
       </default-breakpoints>
     </breakpoint-manager>
+    <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/baselines/baselines/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gym_deepcars/envs/deepcars_env.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1875">
+          <caret line="140" column="49" lean-forward="true" selection-start-line="140" selection-start-column="49" selection-end-line="140" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baselines/baselines/common/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="885">
+          <caret line="64" column="35" lean-forward="true" selection-start-line="64" selection-start-column="35" selection-end-line="64" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#18#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baselines/baselines/deepq/deepq.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1800">
+          <caret line="120" column="13" lean-forward="false" selection-start-line="120" selection-start-column="13" selection-end-line="120" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#9#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$USER_HOME$/Desktop/gym-deepcars-baselines 9.03.47 PM/Gym-DeepCars-baselines-Test.py" />
     <entry file="file://$USER_HOME$/Desktop/gym-deepcars-baselines 9.03.47 PM/Gym-DeepCars-baselines.py" />
     <entry file="file://$PROJECT_DIR$/../Environments/gym-deepcars-env/lib/python3.6/site-packages/gym/envs/__init__.py" />
@@ -423,7 +449,7 @@
     <entry file="file://$PROJECT_DIR$/baselines/baselines/logger.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="163">
-          <caret line="261" lean-forward="true" selection-start-line="261" selection-end-line="261" />
+          <caret line="261" column="0" lean-forward="true" selection-start-line="261" selection-start-column="0" selection-end-line="261" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -431,15 +457,14 @@
     <entry file="file://$PROJECT_DIR$/baselines/baselines/common/tf_util.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
-          <caret line="203" column="28" selection-start-line="203" selection-start-column="28" selection-end-line="203" selection-end-column="28" />
+          <caret line="203" column="28" lean-forward="false" selection-start-line="203" selection-start-column="28" selection-end-line="203" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Test_tf.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-          <folding />
+          <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -450,36 +475,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gym_deepcars/envs/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/gym/envs/registration.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="40" column="11" lean-forward="true" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/gym/envs/registration.py" />
     <entry file="file://$PROJECT_DIR$/gym_deepcars/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gym-DeepCars-baselines.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="214">
-          <caret line="15" selection-start-line="15" selection-end-line="16" selection-end-column="100" />
-          <folding>
-            <element signature="e#70#80#0" expanded="true" />
-          </folding>
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="16" selection-end-column="100" />
         </state>
       </provider>
     </entry>
@@ -487,10 +494,7 @@
     <entry file="file://$PROJECT_DIR$/baselines/baselines/run0.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="18" selection-start-line="18" selection-end-line="19" selection-end-column="96" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="19" selection-end-column="96" />
         </state>
       </provider>
     </entry>
@@ -498,67 +502,46 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="124">
           <caret line="45" column="46" lean-forward="true" selection-start-line="45" selection-start-column="46" selection-end-line="45" selection-end-column="46" />
-          <folding>
-            <element signature="e#539#562#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/baselines/baselines/deepq/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="1" column="56" selection-start-line="1" selection-start-column="56" selection-end-line="1" selection-end-column="56" />
+          <caret line="1" column="56" lean-forward="false" selection-start-line="1" selection-start-column="56" selection-end-line="1" selection-end-column="56" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/baselines/baselines/deepq/build_graph.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
-          <caret line="379" column="31" selection-start-line="379" selection-start-column="31" selection-end-line="379" selection-end-column="31" />
+          <caret line="379" column="31" lean-forward="false" selection-start-line="379" selection-start-column="31" selection-end-line="379" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/baselines/baselines/deepq/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
+          <caret line="8" column="29" lean-forward="false" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/baselines/baselines/common/input.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="24" column="72" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="72" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
+          <caret line="24" column="72" lean-forward="false" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="72" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/baselines/baselines/deepq/utils.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="780">
-          <caret line="52" column="41" selection-start-line="52" selection-start-column="41" selection-end-line="52" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#52#0" expanded="true" />
-          </folding>
+          <caret line="52" column="41" lean-forward="false" selection-start-line="52" selection-start-column="41" selection-end-line="52" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/gym/spaces/test.py" />
-    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/gym/envs/atari/atari_env.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="100" column="37" selection-start-line="100" selection-start-column="24" selection-end-line="100" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/gym/envs/atari/atari_env.py" />
     <entry file="file://$PROJECT_DIR$/Test_baselines_Atari.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -566,82 +549,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/gym/spaces/box.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="31" column="42" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/gym/spaces/box.py" />
     <entry file="file://$PROJECT_DIR$/Test_DeepCars.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
-          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-          <folding>
-            <element signature="e#86#96#0" expanded="true" />
-          </folding>
+          <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/gym/spaces/discrete.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/gym/spaces/discrete.py" />
     <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
+          <caret line="18" column="11" lean-forward="false" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/baselines/baselines/bench/benchmarks.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baselines/baselines/run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3645">
-          <caret line="259" selection-start-line="259" selection-end-line="259" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
+          <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/baselines/baselines/deepq/deepq.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="120" column="13" selection-start-line="120" selection-start-column="13" selection-end-line="120" selection-end-column="13" />
+        <state relative-caret-position="1470">
+          <caret line="120" column="13" lean-forward="false" selection-start-line="120" selection-start-column="13" selection-end-line="120" selection-end-column="13" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gym_deepcars/envs/deepcars_env.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="140" column="60" lean-forward="true" selection-start-line="140" selection-start-column="60" selection-end-line="140" selection-end-column="60" />
-          <folding>
-            <element signature="e#54#64#0" expanded="true" />
+            <element signature="e#0#9#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -649,9 +585,27 @@
     <entry file="file://$PROJECT_DIR$/baselines/baselines/common/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="109">
-          <caret line="64" column="35" lean-forward="true" selection-start-line="64" selection-start-column="35" selection-end-line="64" selection-end-column="35" />
+          <caret line="98" column="35" lean-forward="false" selection-start-line="98" selection-start-column="35" selection-end-line="98" selection-end-column="35" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gym_deepcars/envs/deepcars_env.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="177" column="49" lean-forward="false" selection-start-line="177" selection-start-column="49" selection-end-line="177" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baselines/baselines/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="266" column="0" lean-forward="false" selection-start-line="266" selection-start-column="0" selection-end-line="266" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>

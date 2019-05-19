@@ -1,3 +1,4 @@
 gym==0.12.1
 pygame==1.9.6
 scikit-image==0.15.0
+tensorflow
