@@ -250,12 +250,11 @@ def main(args):
             obs, rew, done, _ = env.step(actions)
             episode_rew += rew[0]
             env.render()
-            time.sleep(0.02)
+            # time.sleep(0.02)
             done = done.any() if isinstance(done, np.ndarray) else done
             if done:
                 print(f'episode_rew={episode_rew}')
                 episode_rew = 0
-                print('*******************************RESET***************************************')
                 obs = env.reset()
 
     env.close()

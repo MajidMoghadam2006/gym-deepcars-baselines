@@ -2,102 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e896b6c-4aeb-4777-a71f-9a9ab58cd2ba" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-08_15-31-32/log.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-08_15-31-32/progress.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-08_15-32-48/0.0.monitor.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-08_15-32-48/log.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-08_15-32-48/progress.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-08_15-35-24/0.0.monitor.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-08_15-35-24/log.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-08_15-35-24/progress.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-08_15-36-03/0.0.monitor.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-08_15-36-03/log.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-08_15-36-03/progress.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-08_15-38-40/0.0.monitor.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-08_15-38-40/log.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-08_15-38-40/progress.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-08_15-39-28/0.0.monitor.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-08_15-39-28/log.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-08_15-39-28/progress.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-08_15-39-56/0.0.monitor.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-08_15-39-56/log.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-08_15-39-56/progress.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-08_15-40-32/0.0.monitor.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-08_15-40-32/log.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-08_15-40-32/progress.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-08_15-41-49/0.0.monitor.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-08_15-41-49/log.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-08_15-41-49/progress.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-08_15-42-25/0.0.monitor.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-08_15-42-25/log.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-08_15-42-25/progress.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-08_15-42-47/0.0.monitor.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-08_15-42-47/log.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-08_15-42-47/progress.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-08_15-44-03/0.0.monitor.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-08_15-44-03/log.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-08_15-44-03/progress.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-08_16-30-42/0.0.monitor.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-08_16-30-42/log.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-08_16-30-42/progress.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-08_16-32-54/0.0.monitor.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-08_16-32-54/log.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-08_16-32-54/progress.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-08_16-35-53/0.0.monitor.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-08_16-35-53/log.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-08_16-35-53/progress.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-08_16-37-30/0.0.monitor.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-08_16-37-30/log.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-08_16-37-30/model" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-08_16-37-30/progress.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-08_18-13-00/0.0.monitor.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-08_18-13-00/log.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-08_18-13-00/progress.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-09_13-35-38/0.0.monitor.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-09_13-35-38/log.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-09_13-35-38/model" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-09_13-35-38/progress.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-14_18-07-43/log.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-14_18-07-43/progress.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-14_18-11-58/log.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/2019-05-14_18-11-58/progress.csv" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/2019-05-16_18-35-00 - stable/model" afterPath="$PROJECT_DIR$/logs/2019-05-16_18-35-00 - stable/model" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/2019-05-16_18-35-00 - stable/model.pkl" afterPath="$PROJECT_DIR$/logs/2019-05-16_18-35-00 - stable/model.pkl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/2019-05-16_18-35-00/model" afterPath="$PROJECT_DIR$/logs/2019-05-16_18-35-00/model" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/2019-05-16_18-35-00/model.pkl" afterPath="$PROJECT_DIR$/logs/2019-05-16_18-35-00/model.pkl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/2019-05-16_19-38-09/model" afterPath="$PROJECT_DIR$/logs/2019-05-16_19-38-09/model" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/2019-05-16_19-38-09/model.pkl" afterPath="$PROJECT_DIR$/logs/2019-05-16_19-38-09/model.pkl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/2019-05-16_19-39-46/model" afterPath="$PROJECT_DIR$/logs/2019-05-16_19-39-46/model" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/2019-05-16_19-39-46/model.pkl" afterPath="$PROJECT_DIR$/logs/2019-05-16_19-39-46/model.pkl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/2019-05-16_20-02-36/model" afterPath="$PROJECT_DIR$/logs/2019-05-16_20-02-36/model" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/2019-05-16_20-02-36/model.pkl" afterPath="$PROJECT_DIR$/logs/2019-05-16_20-02-36/model.pkl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/2019-05-16_21-03-21/model" afterPath="$PROJECT_DIR$/logs/2019-05-16_21-03-21/model" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/2019-05-16_21-03-21/model.pkl" afterPath="$PROJECT_DIR$/logs/2019-05-16_21-03-21/model.pkl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gym-deepcars-baselines.iml" afterPath="$PROJECT_DIR$/.idea/gym-deepcars-baselines.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baselines/baselines.egg-info/PKG-INFO" afterPath="$PROJECT_DIR$/baselines/baselines.egg-info/PKG-INFO" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baselines/baselines.egg-info/SOURCES.txt" afterPath="$PROJECT_DIR$/baselines/baselines.egg-info/SOURCES.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/2019-05-16_18-35-00 - stable/.~lock.progress.csv#" afterPath="$PROJECT_DIR$/logs/2019-05-16_18-35-00 - stable/.~lock.progress.csv#" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/2019-05-16_18-35-00 - stable/0.0.monitor.csv" afterPath="$PROJECT_DIR$/logs/2019-05-16_18-35-00 - stable/0.0.monitor.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/2019-05-16_18-35-00 - stable/log.txt" afterPath="$PROJECT_DIR$/logs/2019-05-16_18-35-00 - stable/log.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/2019-05-16_18-35-00 - stable/progress.csv" afterPath="$PROJECT_DIR$/logs/2019-05-16_18-35-00 - stable/progress.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/2019-05-16_18-35-00/0.0.monitor.csv" afterPath="$PROJECT_DIR$/logs/2019-05-16_18-35-00/0.0.monitor.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/2019-05-16_18-35-00/log.txt" afterPath="$PROJECT_DIR$/logs/2019-05-16_18-35-00/log.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/2019-05-16_18-35-00/progress.csv" afterPath="$PROJECT_DIR$/logs/2019-05-16_18-35-00/progress.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/2019-05-16_19-38-09/0.0.monitor.csv" afterPath="$PROJECT_DIR$/logs/2019-05-16_19-38-09/0.0.monitor.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/2019-05-16_19-38-09/log.txt" afterPath="$PROJECT_DIR$/logs/2019-05-16_19-38-09/log.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/2019-05-16_19-38-09/progress.csv" afterPath="$PROJECT_DIR$/logs/2019-05-16_19-38-09/progress.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/2019-05-16_19-39-46/0.0.monitor.csv" afterPath="$PROJECT_DIR$/logs/2019-05-16_19-39-46/0.0.monitor.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/2019-05-16_19-39-46/log.txt" afterPath="$PROJECT_DIR$/logs/2019-05-16_19-39-46/log.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/2019-05-16_19-39-46/progress.csv" afterPath="$PROJECT_DIR$/logs/2019-05-16_19-39-46/progress.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/2019-05-16_20-02-36/0.0.monitor.csv" afterPath="$PROJECT_DIR$/logs/2019-05-16_20-02-36/0.0.monitor.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/2019-05-16_20-02-36/log.txt" afterPath="$PROJECT_DIR$/logs/2019-05-16_20-02-36/log.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/2019-05-16_20-02-36/progress.csv" afterPath="$PROJECT_DIR$/logs/2019-05-16_20-02-36/progress.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/2019-05-16_21-03-21/0.0.monitor.csv" afterPath="$PROJECT_DIR$/logs/2019-05-16_21-03-21/0.0.monitor.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/2019-05-16_21-03-21/log.txt" afterPath="$PROJECT_DIR$/logs/2019-05-16_21-03-21/log.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/2019-05-16_21-03-21/progress.csv" afterPath="$PROJECT_DIR$/logs/2019-05-16_21-03-21/progress.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/requirements.txt" afterPath="$PROJECT_DIR$/requirements.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baselines/baselines/run.py" afterPath="$PROJECT_DIR$/baselines/baselines/run.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -111,8 +16,8 @@
       <file leaf-file-name="run.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/baselines/baselines/run.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="266" column="0" lean-forward="false" selection-start-line="266" selection-start-column="0" selection-end-line="266" selection-end-column="0" />
+            <state relative-caret-position="209">
+              <caret line="226" column="13" lean-forward="false" selection-start-line="226" selection-start-column="13" selection-end-line="226" selection-end-column="13" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -602,8 +507,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/baselines/baselines/run.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="266" column="0" lean-forward="false" selection-start-line="266" selection-start-column="0" selection-end-line="266" selection-end-column="0" />
+        <state relative-caret-position="209">
+          <caret line="226" column="13" lean-forward="false" selection-start-line="226" selection-start-column="13" selection-end-line="226" selection-end-column="13" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
