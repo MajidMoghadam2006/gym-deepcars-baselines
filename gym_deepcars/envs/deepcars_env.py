@@ -14,8 +14,8 @@ from skimage import transform, color, exposure
 from skimage.color import rgb2gray
 
 # To show output image
-import time
-from scipy.misc import toimage
+# import time
+# from scipy.misc import toimage
 # =======================================================================================================================
 # -------------------------------------------Global Parameter values----------------------------------------------------
 # =======================================================================================================================

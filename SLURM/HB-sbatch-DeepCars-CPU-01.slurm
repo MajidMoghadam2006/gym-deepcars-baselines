@@ -12,4 +12,4 @@ source /hb/home/mamoghad/Scripts/gym-deepcars-baselines/venv/bin/activate
 
 cd /hb/home/mamoghad/Scripts/gym-deepcars-baselines/
 
-python -m baselines.run --alg=deepq --network=mlp total_timesteps=3e5 --env=DeepCars-v0
+python -m baselines.run --alg=deepq --network=mlp --total_timesteps=3e5 --env=DeepCars-v0

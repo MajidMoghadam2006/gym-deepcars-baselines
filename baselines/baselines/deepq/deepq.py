@@ -20,7 +20,7 @@ from baselines.common.tf_util import get_session
 from baselines.deepq.models import build_q_func
 
 # Package for showing the game screen using toimage function
-from scipy.misc import toimage
+# from scipy.misc import toimage
 
 class ActWrapper(object):
     def __init__(self, act, act_params):

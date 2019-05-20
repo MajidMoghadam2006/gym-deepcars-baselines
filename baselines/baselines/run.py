@@ -241,21 +241,37 @@ def main(args):
         state = model.initial_state if hasattr(model, 'initial_state') else None
         dones = np.zeros((1,))
 
-        episode_rew = 0
+        episode_rew = [0.0]
         while True:
             if state is not None:
                 actions, _, state, _ = model.step(obs,S=state, M=dones)
             else:
                 actions, _, _, _ = model.step(obs)
-            obs, rew, done, _ = env.step(actions)
-            episode_rew += rew[0]
-            env.render()
+            obs_, rew, done, _ = env.step(actions)
+            episode_rew[-1] += rew[0]
+            # env.render()
             # time.sleep(0.02)
             done = done.any() if isinstance(done, np.ndarray) else done
             if done:
-                print(f'episode_rew={episode_rew}')
-                episode_rew = 0
-                obs = env.reset()
+                print(f'episode_rew={episode_rew[-1]}')
+                episode_rew.append(0.0)
+                obs_ = env.reset()
+            obs = obs_
+            if len(episode_rew) >= 5:
+                break
+
+        print(f'episode mean rewards{np.mean(episode_rew)}')
+        import pandas as pd
+        dict = {'eps_rew': episode_rew}
+        df = pd.DataFrame(dict)
+        df.to_csv(logger_dir + '/Test_Log.csv')
+
+        import matplotlib.pyplot as plt
+        plt.figure()
+        plt.plot(episode_rew, zorder=1)  # on top
+        plt.title('Episode rewards')
+        plt.show()
+        plt.clf()  # Here is another path
 
     env.close()
 

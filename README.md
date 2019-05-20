@@ -14,5 +14,10 @@ pip install -e .
 
 Training:
 ```ruby
-python -m baselines.run --alg=deepq total_timesteps=3e5 --env=DeepCars-v0
+python -m baselines.run --alg=deepq --network=mlp --num_timesteps=3e5 --env=DeepCars-v0
+```
+
+Evaluation:
+```ruby
+python -m baselines.run --alg=deepq --network=mlp --num_timesteps=0 --env=DeepCars-v0 --load_path=./model.pkl
 ```
