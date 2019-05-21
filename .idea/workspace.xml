@@ -2,15 +2,75 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e896b6c-4aeb-4777-a71f-9a9ab58cd2ba" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model.pkl" afterPath="$PROJECT_DIR$/model.pkl" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gym_deepcars/envs/image/Car1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gym_deepcars/envs/image/Car2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gym_deepcars/envs/image/Car3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gym_deepcars/envs/image/Car4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gym_deepcars/envs/image/Car5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gym_deepcars/envs/image/Car6" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gym_deepcars/envs/image/MyCar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gym_deepcars/envs/image/asphalt_line" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gym_deepcars/envs/image/black" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gym_deepcars/envs/image/grey" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gym_deepcars/envs/image/left" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gym_deepcars/envs/image/right" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/Car1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/Car2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/Car3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/Car4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/Car5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/Car6" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/MyCar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/asphalt_line" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/black" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/grey" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/left" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/right" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/Archive/2019-05-16_18-35-00 - stable/.~lock.progress.csv#" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/Archive/2019-05-16_18-35-00 - stable/0.0.monitor.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/Archive/2019-05-16_18-35-00 - stable/deepcars_env.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/Archive/2019-05-16_18-35-00 - stable/log.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/Archive/2019-05-16_18-35-00 - stable/model" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/Archive/2019-05-16_18-35-00 - stable/model.pkl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/Archive/2019-05-16_18-35-00 - stable/progress.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/Archive/2019-05-16_18-35-00/0.0.monitor.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/Archive/2019-05-16_18-35-00/log.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/Archive/2019-05-16_18-35-00/model" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/Archive/2019-05-16_18-35-00/model.pkl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/Archive/2019-05-16_18-35-00/progress.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/Archive/2019-05-16_19-38-09/0.0.monitor.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/Archive/2019-05-16_19-38-09/log.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/Archive/2019-05-16_19-38-09/model" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/Archive/2019-05-16_19-38-09/model.pkl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/Archive/2019-05-16_19-38-09/progress.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/Archive/2019-05-16_19-39-46/0.0.monitor.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/Archive/2019-05-16_19-39-46/log.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/Archive/2019-05-16_19-39-46/model" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/Archive/2019-05-16_19-39-46/model.pkl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/Archive/2019-05-16_19-39-46/progress.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/Archive/2019-05-16_20-02-36/0.0.monitor.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/Archive/2019-05-16_20-02-36/log.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/Archive/2019-05-16_20-02-36/model" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/Archive/2019-05-16_20-02-36/model.pkl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/Archive/2019-05-16_20-02-36/progress.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/Archive/2019-05-16_21-03-21/0.0.monitor.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/Archive/2019-05-16_21-03-21/log.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/Archive/2019-05-16_21-03-21/model" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/Archive/2019-05-16_21-03-21/model.pkl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/Archive/2019-05-16_21-03-21/progress.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/Archive/2019-05-17_14-28-58/0.0.monitor.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/Archive/2019-05-17_14-28-58/log.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/Archive/2019-05-17_14-28-58/model" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/Archive/2019-05-17_14-28-58/model.pkl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/Archive/2019-05-17_14-28-58/progress.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/Archive/2019-05-17_14-30-16/0.0.monitor.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/Archive/2019-05-17_14-30-16/log.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/Archive/2019-05-17_14-30-16/model" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/Archive/2019-05-17_14-30-16/model.pkl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/Archive/2019-05-17_14-30-16/progress.csv" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SLURM/HB-sbatch-DeepCars-CPU-01.slurm" afterPath="$PROJECT_DIR$/SLURM/HB-sbatch-DeepCars-CPU-01.slurm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test_DeepCars.py" afterPath="$PROJECT_DIR$/Test_DeepCars.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baselines/baselines/deepq/deepq.py" afterPath="$PROJECT_DIR$/baselines/baselines/deepq/deepq.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baselines/baselines/run.py" afterPath="$PROJECT_DIR$/baselines/baselines/run.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym_deepcars/envs/deepcars_env.py" afterPath="$PROJECT_DIR$/gym_deepcars/envs/deepcars_env.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/requirements.txt" afterPath="$PROJECT_DIR$/requirements.txt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,36 +81,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="run.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/baselines/baselines/run.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="537">
-              <caret line="276" column="0" lean-forward="false" selection-start-line="276" selection-start-column="0" selection-end-line="276" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="run2.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../ITSC_baseline_multi_step/baselines/baselines/run2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="286" column="49" lean-forward="false" selection-start-line="286" selection-start-column="49" selection-end-line="286" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="deepcars_env.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="deepcars_env.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/gym_deepcars/envs/deepcars_env.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1590">
-              <caret line="325" column="0" lean-forward="false" selection-start-line="325" selection-start-column="0" selection-end-line="325" selection-end-column="0" />
-              <folding>
-                <element signature="e#54#64#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="44">
+              <caret line="97" column="76" lean-forward="true" selection-start-line="97" selection-start-column="76" selection-end-line="97" selection-end-column="76" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -58,11 +94,9 @@
       <file leaf-file-name="Test_DeepCars.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Test_DeepCars.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="84" lean-forward="false" selection-start-line="0" selection-start-column="84" selection-end-line="0" selection-end-column="84" />
-              <folding>
-                <element signature="e#86#96#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="255">
+              <caret line="20" column="12" lean-forward="false" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -114,12 +148,14 @@
         <option value="$PROJECT_DIR$/baselines/baselines/common/models.py" />
         <option value="$PROJECT_DIR$/Test_DeepCars.py" />
         <option value="$PROJECT_DIR$/baselines/baselines/deepq/deepq.py" />
-        <option value="$PROJECT_DIR$/gym_deepcars/envs/deepcars_env.py" />
         <option value="$PROJECT_DIR$/baselines/baselines/run.py" />
+        <option value="$PROJECT_DIR$/baselines/baselines/PLOT.py" />
+        <option value="$PROJECT_DIR$/PLOT.py" />
+        <option value="$PROJECT_DIR$/gym_deepcars/envs/deepcars_env.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1" />
     <option name="y" value="23" />
     <option name="width" value="1280" />
@@ -152,13 +188,7 @@
             <path>
               <item name="gym-deepcars-baselines" type="b2602c69:ProjectViewProjectNode" />
               <item name="gym-deepcars-baselines" type="462c0819:PsiDirectoryNode" />
-              <item name="gym_deepcars" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gym-deepcars-baselines" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gym-deepcars-baselines" type="462c0819:PsiDirectoryNode" />
-              <item name="gym_deepcars" type="462c0819:PsiDirectoryNode" />
-              <item name="envs" type="462c0819:PsiDirectoryNode" />
+              <item name="baselines" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -187,8 +217,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="Gym-DeepCars-baselines" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.Test_DeepCars">
+    <configuration name="PLOT" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -200,7 +230,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="gym-deepcars-baselines" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Gym-DeepCars-baselines.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PLOT.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -218,23 +248,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="gym-deepcars-baselines" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Test_DeepCars.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="Test_baselines_Atari" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="gym-deepcars-baselines" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Test_baselines_Atari.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -273,20 +286,18 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.Gym-DeepCars-baselines" />
-      <item index="1" class="java.lang.String" itemvalue="Python.Test_baselines_Atari" />
-      <item index="2" class="java.lang.String" itemvalue="Python.Test_tf" />
-      <item index="3" class="java.lang.String" itemvalue="Python.Test_DeepCars" />
-      <item index="4" class="java.lang.String" itemvalue="Python.test" />
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="Python.Test_tf" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Test_DeepCars" />
+      <item index="2" class="java.lang.String" itemvalue="Python.test" />
+      <item index="3" class="java.lang.String" itemvalue="Python.PLOT" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.test" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Test_DeepCars" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Test_tf" />
-        <item index="3" class="java.lang.String" itemvalue="Python.Test_baselines_Atari" />
-        <item index="4" class="java.lang.String" itemvalue="Python.Gym-DeepCars-baselines" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Python.Test_DeepCars" />
+        <item index="1" class="java.lang.String" itemvalue="Python.PLOT" />
+        <item index="2" class="java.lang.String" itemvalue="Python.test" />
+        <item index="3" class="java.lang.String" itemvalue="Python.Test_tf" />
       </list>
     </recent_temporary>
   </component>
@@ -308,24 +319,25 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="23" width="1280" height="709" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20234375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3987441" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -345,12 +357,64 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../ITSC_baseline_multi_step/baselines/baselines/run2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4365">
+          <caret line="306" column="18" lean-forward="true" selection-start-line="306" selection-start-column="8" selection-end-line="306" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PLOT.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="26" lean-forward="false" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#19#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/baselines/baselines/run.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#10#0" expanded="true" />
+            <element signature="e#0#10#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ITSC_baseline_multi_step/baselines/baselines/run2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4065">
+          <caret line="286" column="49" lean-forward="false" selection-start-line="286" selection-start-column="49" selection-end-line="286" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gym_deepcars/envs/deepcars_env.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4710">
+          <caret line="325" column="0" lean-forward="false" selection-start-line="325" selection-start-column="0" selection-end-line="325" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test_DeepCars.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="84" lean-forward="false" selection-start-line="0" selection-start-column="84" selection-end-line="0" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baselines/baselines/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#10#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -367,9 +431,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="885">
           <caret line="64" column="35" lean-forward="true" selection-start-line="64" selection-start-column="35" selection-end-line="64" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#18#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -377,9 +438,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1800">
           <caret line="120" column="13" lean-forward="false" selection-start-line="120" selection-start-column="13" selection-end-line="120" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#9#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -521,7 +579,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
           <caret line="77" column="16" lean-forward="false" selection-start-line="77" selection-start-column="11" selection-end-line="77" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -529,47 +586,59 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#9#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Test_DeepCars.py">
+    <entry file="file://$PROJECT_DIR$/baselines/baselines/PLOT.py" />
+    <entry file="file://$PROJECT_DIR$/PLOT.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="84" lean-forward="false" selection-start-line="0" selection-start-column="84" selection-end-line="0" selection-end-column="84" />
+        <state relative-caret-position="90">
+          <caret line="6" column="26" lean-forward="false" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
           <folding>
-            <element signature="e#86#96#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gym_deepcars/envs/deepcars_env.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1590">
-          <caret line="325" column="0" lean-forward="false" selection-start-line="325" selection-start-column="0" selection-end-line="325" selection-end-column="0" />
-          <folding>
-            <element signature="e#54#64#0" expanded="true" />
+            <element signature="e#0#19#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../ITSC_baseline_multi_step/baselines/baselines/run2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="286" column="49" lean-forward="false" selection-start-line="286" selection-start-column="49" selection-end-line="286" selection-end-column="49" />
+        <state relative-caret-position="252">
+          <caret line="306" column="18" lean-forward="false" selection-start-line="306" selection-start-column="8" selection-end-line="306" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/baselines/baselines/run.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="537">
-          <caret line="276" column="0" lean-forward="false" selection-start-line="276" selection-start-column="0" selection-end-line="276" selection-end-column="0" />
+        <state relative-caret-position="306">
+          <caret line="269" column="20" lean-forward="false" selection-start-line="269" selection-start-column="20" selection-end-line="269" selection-end-column="20" />
           <folding>
-            <element signature="e#0#10#0" expanded="true" />
+            <element signature="e#0#10#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gym_deepcars/envs/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test_DeepCars.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="20" column="12" lean-forward="false" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gym_deepcars/envs/deepcars_env.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="97" column="76" lean-forward="true" selection-start-line="97" selection-start-column="76" selection-end-line="97" selection-end-column="76" />
+          <folding />
         </state>
       </provider>
     </entry>

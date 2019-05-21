@@ -81,30 +81,30 @@ class DeepCarsEnv(gym.Env):
         # I know that this is not the best approach to get env images :)
         # Requirement: image folder should be in os path (same directory as main script)
         # print('Game images are going to be loaded from: {}/image/'.format(os.getcwd()))
-        print('Game images are going to be loaded from: {}/image/'.format(os.getcwd()))
+        print('Game images are going to be loaded from: {}gym_deepcars/envs/assets//'.format(os.getcwd()))
 
-        self.PlayerImage = pygame.image.load('image/MyCar')
+        self.PlayerImage = pygame.image.load('gym_deepcars/envs/assets/MyCar')
         self.PlayerImage = pygame.transform.scale(self.PlayerImage, (CarWidth, CarHeight))
 
-        Car1Image = pygame.image.load('image/Car1')
+        Car1Image = pygame.image.load('gym_deepcars/envs/assets/Car1')
         Car1Image = pygame.transform.scale(Car1Image, (CarWidth, CarHeight))
-        Car2Image = pygame.image.load('image/Car2')
+        Car2Image = pygame.image.load('gym_deepcars/envs/assets/Car2')
         Car2Image = pygame.transform.scale(Car2Image, (CarWidth, CarHeight))
-        Car3Image = pygame.image.load('image/Car3')
+        Car3Image = pygame.image.load('gym_deepcars/envs/assets/Car3')
         Car3Image = pygame.transform.scale(Car3Image, (CarWidth, CarHeight))
-        Car4Image = pygame.image.load('image/Car4')
+        Car4Image = pygame.image.load('gym_deepcars/envs/assets/Car4')
         Car4Image = pygame.transform.scale(Car4Image, (CarWidth, CarHeight))
-        Car5Image = pygame.image.load('image/Car5')
+        Car5Image = pygame.image.load('gym_deepcars/envs/assets/Car5')
         Car5Image = pygame.transform.scale(Car5Image, (CarWidth, CarHeight))
-        Car6Image = pygame.image.load('image/Car6')
+        Car6Image = pygame.image.load('gym_deepcars/envs/assets/Car6')
         Car6Image = pygame.transform.scale(Car6Image, (CarWidth, CarHeight))
 
         self.CarsImageVec = [Car1Image, Car2Image, Car3Image, Car4Image, Car5Image, Car6Image]
 
-        LeftWallImage = pygame.image.load('image/left')
-        RightWallImage = pygame.image.load('image/right')
+        LeftWallImage = pygame.image.load('gym_deepcars/envs/assets/left')
+        RightWallImage = pygame.image.load('gym_deepcars/envs/assets/right')
 
-        self.LineImage = pygame.image.load('image/black')
+        self.LineImage = pygame.image.load('gym_deepcars/envs/assets/black')
         self.LineImage = pygame.transform.scale(self.LineImage, (LineWidth, WindowHeight))
 
         # Define walls
