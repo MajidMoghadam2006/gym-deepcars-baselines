@@ -133,8 +133,8 @@ class DeepCarsEnv_v1(gym.Env):
         # discreteHigh = np.ones(((MaxCarsInLane - 1), NoOfLanes), dtype=int).flatten() * 3
         # self.observation_space = spaces.MultiDiscrete(discreteHigh)  # e.g. s = [0 0 1 0 ... 0 2 0]
 
-        boxLow = np.ones((MaxCarsInLane - 1)*NoOfLanes, dtype=int) * 0
-        boxHigh = np.ones((MaxCarsInLane - 1)*NoOfLanes, dtype=int) * 2
+        boxLow = np.ones(NoOfLanes + 1, dtype=int) * 0
+        boxHigh =  np.ones(NoOfLanes + 1, dtype=int) * max(MaxCarsInLane - 2,NoOfLanes)
         self.observation_space = spaces.Box(boxLow, boxHigh, dtype=int)
         # You may use self.observation_space.sample() to see an example observation
 
@@ -269,11 +269,13 @@ class DeepCarsEnv_v1(gym.Env):
         # ==================================================================================================================
         # ------------------------------------------------Game state----------------------------------------------------
         # ==================================================================================================================
-        obs = []
-        for i in range(0, NoOfLanes + 1):
-            obs.append(MaxCarsInLane - 2)  # [Player Lane Number  ,   Distance to the car in front in lane (i) ]
+
+        obs = np.ones(NoOfLanes + 1, dtype=int)*(MaxCarsInLane - 2) # initialize distance to line-of-sight distance
         obs[0] = self.PlayerLane
-        print(np.shape(obs))
+        for Car in self.OtherCarsVec:
+            if Car['YCoord'] < obs[Car['XCoord'] + 1]:      # Select closest car in each lane
+                # Number of grid rectangles existing in between (including car rectangle)
+                obs[Car['XCoord'] + 1] = Car['YCoord']
 
         # ==================================================================================================================
         # --------------------------------------------Reward function---------------------------------------------------
