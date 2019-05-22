@@ -72,7 +72,7 @@ NoOfGridPixels = NoOfHorGridPixels + NoOfLanes
 # -------------------------------------------Grid World Class-----------------------------------------------------------
 # =======================================================================================================================
 
-class DeepCarsEnv(gym.Env):
+class DeepCarsEnv_v1(gym.Env):
     metadata = {'render.modes': ['human']}
 
     def __init__(self):
@@ -269,31 +269,11 @@ class DeepCarsEnv(gym.Env):
         # ==================================================================================================================
         # ------------------------------------------------Game state----------------------------------------------------
         # ==================================================================================================================
-        # --------- for taining using game frames: ----------
-        # self.render()
-        # ImageData = pygame.surfarray.array3d(pygame.display.get_surface())
-
-        # ImageData = self.keras_preprocess(ImageData)
-        # ImageData = self.baselines_preprocess(ImageData)
-
-        # Show the output image
-        # toimage(ImageData).show()
-        # time.sleep(1)
-        # ---------------------------------------------------
-
-        # Calulate environment matrix to create a state vector of the world
-
-        # Initialize environment matrix
-        EnvMat = np.zeros(((MaxCarsInLane - 1), NoOfLanes), dtype=int)
-
-        # Fill other actors grid as 1 in environment matrix
-        for Car in self.OtherCarsVec:
-            EnvMat[MaxCarsInLane - Car['YCoord'] - 2, Car['XCoord']] = 1
-
-        # Fill my car grid as 2 in environment matrix
-        EnvMat[MaxCarsInLane - 2, self.PlayerLane] = 2
-
-        obs = EnvMat.flatten()
+        obs = []
+        for i in range(0, NoOfLanes + 1):
+            obs.append(MaxCarsInLane - 2)  # [Player Lane Number  ,   Distance to the car in front in lane (i) ]
+        obs[0] = self.PlayerLane
+        print(np.shape(obs))
 
         # ==================================================================================================================
         # --------------------------------------------Reward function---------------------------------------------------
