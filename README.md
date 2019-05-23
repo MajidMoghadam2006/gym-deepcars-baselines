@@ -19,5 +19,5 @@ python -m baselines.run --alg=deepq --network=mlp --num_timesteps=3e5 --env=Deep
 
 Evaluation:
 ```ruby
-python -m baselines.run --alg=deepq --network=mlp --num_timesteps=0 --env=DeepCars-v0 --load_path=./model.pkl
+python -m baselines.run --alg=deepq --network=mlp --num_timesteps=0 --env=DeepCars-v0 --load_path=./model.pkl --play
 ```

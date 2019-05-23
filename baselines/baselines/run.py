@@ -234,7 +234,6 @@ def main(args):
         model.save(save_path)
 
     if args.play:
-        import time
         logger.log("Running trained model")
         obs = env.reset()
 
@@ -257,7 +256,7 @@ def main(args):
                 episode_rew.append(0.0)
                 obs_ = env.reset()
             obs = obs_
-            if len(episode_rew) >= 5:
+            if len(episode_rew) >= 100:
                 break
 
         print(f'episode mean rewards{np.mean(episode_rew)}')
