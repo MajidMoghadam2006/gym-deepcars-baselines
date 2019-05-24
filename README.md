@@ -10,6 +10,7 @@ cd gym-deepcars-baselines
 pip install -e .  
 cd baselines  
 pip install -e .  
+cd ..
 ```
 
 Training:
