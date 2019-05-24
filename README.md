@@ -19,6 +19,8 @@ python -m baselines.run --alg=deepq --network=mlp --num_timesteps=3e5 --env=Deep
 ```
 
 Evaluation:
+
+Copy the saved model.pkl in the log file and past in gym-deepcars-baselines/ and run:
 ```ruby
 python -m baselines.run --alg=deepq --network=mlp --num_timesteps=0 --env=DeepCars-v0 --load_path=./model.pkl --play
 ```
