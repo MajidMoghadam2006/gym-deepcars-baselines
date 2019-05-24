@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0e896b6c-4aeb-4777-a71f-9a9ab58cd2ba" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DeepCars_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/DeepCars_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baselines/baselines/common/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/baselines/baselines/common/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gym_deepcars/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/gym_deepcars/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gym_deepcars/envs/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/gym_deepcars/envs/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/model.pkl" afterDir="false" />
-    </list>
+    <list default="true" id="0e896b6c-4aeb-4777-a71f-9a9ab58cd2ba" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,17 +9,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/baselines/baselines/deepq/build_graph.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="421" lean-forward="true" selection-start-line="421" selection-end-line="421" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -122,13 +105,6 @@
               <item name="gym-deepcars-baselines" type="462c0819:PsiDirectoryNode" />
               <item name="baselines" type="462c0819:PsiDirectoryNode" />
               <item name="baselines" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gym-deepcars-baselines" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gym-deepcars-baselines" type="462c0819:PsiDirectoryNode" />
-              <item name="baselines" type="462c0819:PsiDirectoryNode" />
-              <item name="baselines" type="462c0819:PsiDirectoryNode" />
-              <item name="deepq" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -300,7 +276,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-2" width="1301" height="770" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20187794" />
       <window_info id="Structure" order="1" weight="0.25" />
