@@ -283,6 +283,8 @@ def learn(env,
             env_action = action
             reset = False
             new_obs, rew, done, _ = env.step(env_action)
+            if render:
+                env.render()
 
             # Show the received game image
             # toimage(new_obs).show()
