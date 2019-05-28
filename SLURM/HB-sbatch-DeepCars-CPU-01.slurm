@@ -14,4 +14,5 @@ export PYTHONPATH=/hb/home/mamoghad/Scripts/gym-deepcars-baselines/venv/lib/pyth
 
 cd /hb/home/mamoghad/Scripts/gym-deepcars-baselines/
 
-python -m baselines.run --alg=deepq --network=mlp --num_timesteps=3e5 --env=DeepCars-v0
+python -m baselines.run --alg=deepq --network=shallow_mlp --num_timesteps=1e5 --env=DeepCars-v3
+
