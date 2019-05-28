@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e896b6c-4aeb-4777-a71f-9a9ab58cd2ba" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baselines/baselines/deepq/deepq.py" beforeDir="false" afterPath="$PROJECT_DIR$/baselines/baselines/deepq/deepq.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DeepCars_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/DeepCars_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gym_deepcars/envs/deepcars_env.py" beforeDir="false" afterPath="$PROJECT_DIR$/gym_deepcars/envs/deepcars_env.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,29 +16,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gym_deepcars/envs/deepcars_env.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="784">
-              <caret line="324" column="17" selection-start-line="324" selection-start-column="17" selection-end-line="324" selection-end-column="17" />
+            <state relative-caret-position="-75">
+              <caret line="290" column="45" selection-start-line="290" selection-start-column="45" selection-end-line="290" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/baselines/baselines/deepq/deepq.py">
+        <entry file="file://$PROJECT_DIR$/gym_deepcars/envs/deepcars_env_v3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="286" column="27" selection-start-line="286" selection-start-column="27" selection-end-line="286" selection-end-column="27" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../deepcars_DQN_initial_version/DeepCars.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="236" column="10" selection-start-line="236" selection-start-column="10" selection-end-line="236" selection-end-column="10" />
+            <state relative-caret-position="45">
+              <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -94,7 +82,6 @@
         <option value="$PROJECT_DIR$/Test_DeepCars.py" />
         <option value="$PROJECT_DIR$/baselines/baselines/PLOT.py" />
         <option value="$PROJECT_DIR$/PLOT.py" />
-        <option value="$PROJECT_DIR$/gym_deepcars/envs/deepcars_env.py" />
         <option value="$PROJECT_DIR$/gym_deepcars/envs/deepcars_env_v1.py" />
         <option value="$PROJECT_DIR$/baselines/baselines/run.py" />
         <option value="$PROJECT_DIR$/../DeepCars_DQN_Nearest_Car/DeepCars.py" />
@@ -104,7 +91,6 @@
         <option value="$PROJECT_DIR$/gym_deepcars/envs/__init__.py" />
         <option value="$PROJECT_DIR$/gym_deepcars/__init__.py" />
         <option value="$PROJECT_DIR$/gym_deepcars/envs/deepcars_env_v2.py" />
-        <option value="$PROJECT_DIR$/DeepCars_test.py" />
         <option value="$PROJECT_DIR$/baselines/baselines/common/models.py" />
         <option value="$PROJECT_DIR$/baselines/baselines/deepq/build_graph.py" />
         <option value="$PROJECT_DIR$/../deepcars_DQN_initial_version/DeepCars_DQN_Test.py" />
@@ -117,6 +103,10 @@
         <option value="$PROJECT_DIR$/../deepcars_DQN_initial_version/DeepCars.py" />
         <option value="$PROJECT_DIR$/../deepcars_DQN_initial_version/Train_DeepCars_DDQN.py" />
         <option value="$PROJECT_DIR$/baselines/baselines/deepq/deepq.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.py" />
+        <option value="$PROJECT_DIR$/DeepCars_test.py" />
+        <option value="$PROJECT_DIR$/gym_deepcars/envs/deepcars_env.py" />
+        <option value="$PROJECT_DIR$/gym_deepcars/envs/deepcars_env_v3.py" />
       </list>
     </option>
   </component>
@@ -264,7 +254,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Test_tf" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="scratch" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="gym-deepcars-baselines" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -272,11 +262,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="WORKING_DIRECTORY" value="$APPLICATION_CONFIG_DIR$/scratches" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Test_tf.py" />
+      <option name="SCRIPT_NAME" value="$APPLICATION_CONFIG_DIR$/scratches/scratch.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -310,16 +300,16 @@
       <item itemvalue="Python.DeepCars_test" />
       <item itemvalue="Python.PLOT" />
       <item itemvalue="Python.Test_DeepCars" />
-      <item itemvalue="Python.Test_tf" />
       <item itemvalue="Python.test" />
+      <item itemvalue="Python.scratch" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.DeepCars_test" />
+        <item itemvalue="Python.scratch" />
         <item itemvalue="Python.Test_DeepCars" />
         <item itemvalue="Python.PLOT" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python.Test_tf" />
       </list>
     </recent_temporary>
   </component>
@@ -340,13 +330,13 @@
     <frame x="65" y="-2" width="1301" height="770" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20187794" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20187794" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32917318" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.324493" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.18564743" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -379,8 +369,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/baselines/baselines/PLOT.py" />
-    <entry file="file://$PROJECT_DIR$/../ITSC_baseline_multi_step/baselines/baselines/run2.py" />
     <entry file="file://$PROJECT_DIR$/gym_deepcars/envs/gym-deepcars-test1.py" />
     <entry file="file://$PROJECT_DIR$/PLOT.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -460,16 +448,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DeepCars_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="e#86#96#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/baselines/baselines/common/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="181">
@@ -531,13 +509,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="89" column="26" selection-start-line="89" selection-start-column="26" selection-end-line="89" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gym_deepcars/envs/deepcars_env_v2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="275" column="8" lean-forward="true" selection-start-line="275" selection-start-column="8" selection-end-line="280" selection-end-column="54" />
         </state>
       </provider>
     </entry>
@@ -610,17 +581,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../deepcars_DQN_initial_version/DeepCars.py">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="236" column="10" selection-start-line="236" selection-start-column="10" selection-end-line="236" selection-end-column="10" />
+        <state relative-caret-position="30">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gym_deepcars/envs/deepcars_env.py">
+    <entry file="file://$PROJECT_DIR$/../deepcars_DQN_initial_version/DeepCars.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="784">
-          <caret line="324" column="17" selection-start-line="324" selection-start-column="17" selection-end-line="324" selection-end-column="17" />
+        <state relative-caret-position="2615">
+          <caret line="249" column="47" selection-start-line="249" selection-start-column="47" selection-end-line="249" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -631,6 +602,37 @@
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DeepCars_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+          <folding>
+            <element signature="e#86#96#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gym_deepcars/envs/deepcars_env.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-75">
+          <caret line="290" column="45" selection-start-line="290" selection-start-column="45" selection-end-line="290" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gym_deepcars/envs/deepcars_env_v2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3210">
+          <caret line="276" column="32" lean-forward="true" selection-start-line="276" selection-start-column="32" selection-end-line="276" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gym_deepcars/envs/deepcars_env_v3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
         </state>
       </provider>
     </entry>

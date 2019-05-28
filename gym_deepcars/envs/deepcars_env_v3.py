@@ -1,4 +1,7 @@
 # DeepCars environment registered for the OpenAI gym
+# v3:
+# obs vetcor is changed to 0's and 1's only. Player lane is encoded in the vector.
+# collision reward: -1000
 
 import gym
 from gym import error, spaces, utils
@@ -72,7 +75,7 @@ NoOfGridPixels = NoOfHorGridPixels + NoOfLanes
 # -------------------------------------------Grid World Class-----------------------------------------------------------
 # =======================================================================================================================
 
-class DeepCarsEnv(gym.Env):
+class DeepCarsEnv_v3(gym.Env):
     metadata = {'render.modes': ['human']}
 
     def __init__(self):
@@ -299,7 +302,7 @@ class DeepCarsEnv(gym.Env):
         # ==================================================================================================================
         done = False
         if self.PlayerHasHitBaddie(self.PlayerRect, self.OtherCarsVec):
-            Reward = -1
+            Reward = -1000
             done = True
             # print('Passed cars: {}'.format(self.PassedCarsCount))
             self.PassedCarsCount -= 1

@@ -5,7 +5,7 @@ import gym_deepcars
 import time
 import numpy as np
 
-env = gym.make('DeepCars-v2')
+env = gym.make('DeepCars-v0')
 
 obs = env.reset()
 # time.sleep(5)

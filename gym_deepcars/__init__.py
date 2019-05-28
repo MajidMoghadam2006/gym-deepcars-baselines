@@ -20,3 +20,8 @@ register(
     id='DeepCars-v2',
     entry_point='gym_deepcars.envs:DeepCarsEnv_v2'
         )
+
+register(
+    id='DeepCars-v3',
+    entry_point='gym_deepcars.envs:DeepCarsEnv_v3'
+        )
