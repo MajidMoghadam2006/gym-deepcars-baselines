@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e896b6c-4aeb-4777-a71f-9a9ab58cd2ba" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/baselines/baselines/deepq/deepq.py" beforeDir="false" afterPath="$PROJECT_DIR$/baselines/baselines/deepq/deepq.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baselines/baselines/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/baselines/baselines/run.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gym_deepcars/envs/deepcars_env.py" beforeDir="false" afterPath="$PROJECT_DIR$/gym_deepcars/envs/deepcars_env.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/model.pkl" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,32 +24,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/baselines/baselines/deepq/deepq.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="263" column="19" selection-start-line="263" selection-start-column="19" selection-end-line="263" selection-end-column="19" />
+            <state relative-caret-position="260">
+              <caret line="262" column="40" selection-start-line="262" selection-start-column="40" selection-end-line="262" selection-end-column="40" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/baselines/baselines/run.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="249" column="24" lean-forward="true" selection-start-line="249" selection-start-column="24" selection-end-line="249" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/gym_deepcars/envs/deepcars_env.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="306" column="24" selection-start-line="306" selection-start-column="24" selection-end-line="306" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -141,9 +119,9 @@
         <option value="$PROJECT_DIR$/../deepcars_DQN_initial_version/Test_DeepCars_DQN.py" />
         <option value="$PROJECT_DIR$/../deepcars_DQN_initial_version/DeepCars_v3.py" />
         <option value="$PROJECT_DIR$/../deepcars_DQN_initial_version/Train_DeepCars_DQN.py" />
-        <option value="$PROJECT_DIR$/baselines/baselines/deepq/deepq.py" />
         <option value="$PROJECT_DIR$/baselines/baselines/run.py" />
         <option value="$PROJECT_DIR$/gym_deepcars/envs/deepcars_env.py" />
+        <option value="$PROJECT_DIR$/baselines/baselines/deepq/deepq.py" />
       </list>
     </option>
   </component>
@@ -176,6 +154,13 @@
               <item name="gym-deepcars-baselines" type="462c0819:PsiDirectoryNode" />
               <item name="baselines" type="462c0819:PsiDirectoryNode" />
               <item name="baselines" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gym-deepcars-baselines" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gym-deepcars-baselines" type="462c0819:PsiDirectoryNode" />
+              <item name="baselines" type="462c0819:PsiDirectoryNode" />
+              <item name="baselines" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gym-deepcars-baselines" type="b2602c69:ProjectViewProjectNode" />
@@ -551,13 +536,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/baselines/baselines/common/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="98" column="32" lean-forward="true" selection-start-line="98" selection-start-column="32" selection-end-line="98" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../deepcars_DQN_initial_version/Test_DeepCars_DDQN.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -630,16 +608,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/baselines/baselines/deepq/deepq.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="263" column="19" selection-start-line="263" selection-start-column="19" selection-end-line="263" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../deepcars_DQN_initial_version/Train_DeepCars_DQN.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-956">
@@ -650,13 +618,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/baselines/baselines/run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="249" column="24" lean-forward="true" selection-start-line="249" selection-start-column="24" selection-end-line="249" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../deepcars_DQN_initial_version/DeepCars.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
@@ -664,10 +625,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/baselines/baselines/common/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="110" lean-forward="true" selection-start-line="110" selection-end-line="110" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/gym_deepcars/envs/deepcars_env.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
-          <caret line="306" column="24" selection-start-line="306" selection-start-column="24" selection-end-line="306" selection-end-column="24" />
+          <caret line="306" column="24" lean-forward="true" selection-start-line="306" selection-start-column="24" selection-end-line="306" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baselines/baselines/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="249" column="24" lean-forward="true" selection-start-line="249" selection-start-column="24" selection-end-line="249" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baselines/baselines/deepq/deepq.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="262" column="40" selection-start-line="262" selection-start-column="40" selection-end-line="262" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -261,7 +261,6 @@ def learn(env,
 
 
         for t in range(total_timesteps):
-            print(t)
             if callback is not None:
                 if callback(locals(), globals()):
                     break
