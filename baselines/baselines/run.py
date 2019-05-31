@@ -247,6 +247,7 @@ def main(args):
             else:
                 actions, _, _, _ = model.step(obs)
             obs_, rew, done, _ = env.step(actions)
+            env.render()
             episode_rew[-1] += rew[0]
             # env.render()
             # time.sleep(0.02)
