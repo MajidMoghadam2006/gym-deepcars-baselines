@@ -92,9 +92,10 @@ def deep_mlp2(num_layers=4, num_hidden=[32, 64, 64, 64], activation=tf.tanh, lay
     return network_fn
 
 @register("shallow_mlp")
-def shallow_mlp(num_layers=1, num_hidden=[16], activation=tf.tanh, layer_norm=False):
+def shallow_mlp(num_layers=1, num_hidden=[16], activation=tf.nn.relu, layer_norm=False):
     num_layers = 1
     num_hidden = [16]
+    activation = tf.nn.relu
     def network_fn(X):
         h = tf.layers.flatten(X)
         for i in range(num_layers):
@@ -102,7 +103,6 @@ def shallow_mlp(num_layers=1, num_hidden=[16], activation=tf.tanh, layer_norm=Fa
             if layer_norm:
                 h = tf.contrib.layers.layer_norm(h, center=True, scale=True)
             h = activation(h)
-
         return h
 
     return network_fn
