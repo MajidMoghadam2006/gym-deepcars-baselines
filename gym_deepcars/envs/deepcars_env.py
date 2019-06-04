@@ -115,6 +115,8 @@ class DeepCarsEnv(gym.Env):
                           'surface': pygame.transform.scale(RightWallImage, (WallWidth, 3 * WindowHeight))
                           }
 
+        self.PassedCarsCount = 1  # No. of cars that the agent has passed (start from 1 to avoid deving to 0 in SuccessRate)
+        self.HitCarsCount = 0  # No. of cars that are hit by player
         self.param_initialization()
 
     def param_initialization(self):
@@ -133,8 +135,8 @@ class DeepCarsEnv(gym.Env):
         # discreteHigh = np.ones(((MaxCarsInLane - 1), NoOfLanes), dtype=int).flatten() * 3
         # self.observation_space = spaces.MultiDiscrete(discreteHigh)  # e.g. s = [0 0 1 0 ... 0 2 0]
 
-        boxLow = np.ones((MaxCarsInLane - 1)*NoOfLanes + NoOfLanes, dtype=int) * 0
-        boxHigh = np.ones((MaxCarsInLane - 1)*NoOfLanes + NoOfLanes, dtype=int) * 1
+        boxLow = np.zeros((MaxCarsInLane - 1)*NoOfLanes + NoOfLanes, dtype=int)
+        boxHigh = np.ones((MaxCarsInLane - 1)*NoOfLanes + NoOfLanes, dtype=int)
         self.observation_space = spaces.Box(boxLow, boxHigh, dtype=int)
         # You may use self.observation_space.sample() to see an example observation
 
@@ -142,8 +144,6 @@ class DeepCarsEnv(gym.Env):
         # You may use self.action_space.sample() to see an example action
 
         self.CarAddCounter = AddNewCarRate
-        self.PassedCarsCount = 1  # No. of cars that the agent has passed (start from 1 to avoid deving to 0 in SuccessRate)
-        self.HitCarsCount = 0  # No. of cars that are hit by player
         self.OtherCarsVec = []
         self.PlayerLane = round((NoOfLanes - 1) / 2)
         self.PlayerRect = 0
@@ -307,21 +307,9 @@ class DeepCarsEnv(gym.Env):
             done = False
             Reward = 1
 
-        # ==================================================================================================================
-        # -----------------------------------------------ESC for Terminate--------------------------------------------------
-        # ==================================================================================================================
-        # done = False
-        # for event in pygame.event.get():
-        #     if event.type == KEYDOWN:
-        #         if event.key == K_ESCAPE:  # escape quits
-        #             done = True
-        #             self.close()
+        Accuracy = round(self.PassedCarsCount / (self.PassedCarsCount + self.HitCarsCount) * 100, 2)
 
-        # return np.array(ImageData), Reward, done, {} #self.HitCarsCount, self.PassedCarsCount
-        # Accuracy = round(self.PassedCarsCount / (self.PassedCarsCount + self.HitCarsCount) * 100, 2)
-        # time.sleep(1)
-
-        return obs, Reward, done, {}  # self.HitCarsCount, self.PassedCarsCount
+        return obs, Reward, done, {'Accuracy': Accuracy}  # self.HitCarsCount, self.PassedCarsCount
 
     def render(self, mode='human', close=False):
         # =======================================Draw the game world on the window===========================================

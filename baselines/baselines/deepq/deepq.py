@@ -282,9 +282,11 @@ def learn(env,
             action = act(np.array(obs)[None], update_eps=update_eps, **kwargs)[0]
             env_action = action
             reset = False
-            new_obs, rew, done, _ = env.step(env_action)
+            new_obs, rew, done, info = env.step(env_action)
             if render:
                 env.render()
+
+
 
             # Show the received game image
             # toimage(new_obs).show()
@@ -299,6 +301,7 @@ def learn(env,
 
             episode_rewards[-1] += rew
             if done:
+                # print(info[0]['Accuracy'])
                 obs = env.reset()
                 episode_rewards.append(0.0)
                 reset = True

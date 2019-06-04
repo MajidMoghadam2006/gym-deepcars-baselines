@@ -13,8 +13,8 @@ obs = env.reset()
 for _ in range(1000):
     a = env.action_space.sample()  # Take a random action
     obs, Reward, done, __ = env.step(a)
-    print(obs)
-    # obs2 = env.observation_space.sample()
+    obs2 = env.observation_space.sample()
+    print(obs, obs2)
     env.render()
     time.sleep(.2)
     if done:

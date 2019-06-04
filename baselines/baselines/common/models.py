@@ -53,7 +53,6 @@ def mlp(num_layers=2, num_hidden=64, activation=tf.tanh, layer_norm=False):
             if layer_norm:
                 h = tf.contrib.layers.layer_norm(h, center=True, scale=True)
             h = activation(h)
-
         return h
 
     return network_fn
