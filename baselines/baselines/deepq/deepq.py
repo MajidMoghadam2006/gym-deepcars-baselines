@@ -286,8 +286,6 @@ def learn(env,
             if render:
                 env.render()
 
-
-
             # Show the received game image
             # toimage(new_obs).show()
 
@@ -333,6 +331,8 @@ def learn(env,
                 logger.record_tabular("episodes", num_episodes)
                 logger.record_tabular("mean 100 episode reward", mean_100ep_reward)
                 logger.record_tabular("% time spent exploring", int(100 * exploration.value(t)))
+                logger.record_tabular("accuracy", info[0]['Accuracy'])
+                logger.record_tabular("episode reward", episode_rewards[-2][0])
                 logger.dump_tabular()
 
             if (checkpoint_freq is not None and t > learning_starts and
@@ -344,6 +344,7 @@ def learn(env,
                     save_variables(model_file)
                     model_saved = True
                     saved_mean_reward = mean_100ep_reward
+
         if model_saved:
             if print_freq is not None:
                 logger.log("Restored model with mean reward: {}".format(saved_mean_reward))
